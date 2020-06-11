@@ -2,7 +2,7 @@
 
 // Live Chat
 function openLiveChat() {
-	window.open("https://tawk.to/chat/5ee22af74a7c6258179a6569/default", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=480,height=580");
+	window.open("https://tawk.to/chat/5ee22af74a7c6258179a6569/default", "_blank", "toolbar=no,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=580");
 }
 
 // jQuery Functions
