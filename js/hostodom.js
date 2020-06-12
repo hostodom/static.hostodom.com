@@ -1,4 +1,4 @@
-// HOSTODOM FUNCTIONS
+//** HOSTODOM FUNCTIONS
 
 // jQuery Functions
 $(document).ready(function() {
