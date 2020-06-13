@@ -2,8 +2,9 @@
 
 // jQuery Functions
 $(document).ready(function() {
-	$.fakeLoader({
-		bgColor: '#fff',
-		spinner: 'spinner2'
-	});
+	$('.fakeLoader').remove();
+});
+
+$('.fakeLoader').click(function() {
+	$('.fakeLoader').remove();
 });
