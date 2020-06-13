@@ -27,3 +27,18 @@ var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
 	s1.setAttribute('crossorigin','*');
 	s0.parentNode.insertBefore(s1,s0);
 })();
+
+// Cookie Notice
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#405f77",
+      "text": "#fefefe"
+    },
+    "button": {
+      "background": "transparent",
+      "text": "#fefefe",
+      "border": "#fefefe"
+    }
+  }
+});
