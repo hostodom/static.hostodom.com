@@ -30,12 +30,18 @@ div,
 }
 
 .menu-blurb {
+	right: 0 !important;
+	top: 50px !important;
 	border: 1px solid #eee !important;
 }
 
 .menu-blurb li {
 	font-size: 15px !important;
 	color: #405f77 !important;
+}
+
+.menu-blurb li a:hover {
+	background: #405f77 !important;
 }
 
 .profile-menu-user-name {
