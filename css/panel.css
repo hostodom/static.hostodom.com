@@ -1,0 +1,36 @@
+/*** HOSTODOM CONTROL PANEL ***/
+
+@import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;1,700&family=Roboto+Slab:wght@900&display=swap');
+
+html body {
+	margin-bottom: 0 !important;
+}
+
+/* Fonts */
+
+body,
+div,
+#control-panel-header-user-email
+#footer {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.widget-header strong {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 900 !important;
+}
+
+body table:first-child,
+.mainnav-header,
+#customercp-container {
+	max-width: 1000px !important;
+	margin: 0 auto !important;
+}
+
+#control-panel-menu {
+	background: #405f77 !important;
+}
+
+#control-panel-menu tbody tr td {
+	background: none !important;
+}
