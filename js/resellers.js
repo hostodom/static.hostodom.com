@@ -3,7 +3,7 @@
 // jQuery Functions
 $(document).ready(function() {
 	$.fakeLoader({
-		bgColor: '#fff',
+		bgColor: '#c2d3f0',
 		spinner: 'spinner2'
 	});
 	$('#menu0').css('font-size', '18px');
