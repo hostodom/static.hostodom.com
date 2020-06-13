@@ -9,7 +9,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		window.location = 'https://help.hostodom.com/portal/newticket';
 	});
-	$('a[href^="https://"]').attr('target', '_blank');
+	$('a').filter('[href^="https"], [href^="//"]').not('[href*="' + window.location.host + '"]').attr('rel', 'noopener noreferrer').attr('target', '_blank');
 });
 
 // Live Chat
