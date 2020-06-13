@@ -9,8 +9,15 @@ $(document).ready(function() {
 		e.preventDefault();
 		window.location = 'https://help.hostodom.com/portal/newticket';
 	});
-	$('a').filter('[href^="https"], [href^="//"]').not('[href*="' + window.location.host + '"]').attr('rel', 'noopener noreferrer').attr('target', '_blank');
 });
+
+// External links
+var links = document.links;
+for (var i = 0, linksLength = links.length; i < linksLength; i++) {
+	if (links[i].hostname != window.location.hostname) {
+		links[i].target = '_blank';
+	} 
+}
 
 // Live Chat
 function openLiveChat() {
