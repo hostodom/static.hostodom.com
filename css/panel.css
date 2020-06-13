@@ -15,9 +15,31 @@ div,
 	font-family: 'Cuprum', sans-serif !important;
 }
 
+#navigation-shadow td {
+	padding: 10px 0 !important;
+}
+
+#store-buy-button {
+	display: none !important;
+	visibility: hidden !important;
+}
+
 .widget-header strong {
 	font-family: 'Roboto Slab', serif !important;
+	font-size: 15px !important;
 	font-weight: 900 !important;
+	color: #405f77 !important;
+	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) !important;
+}
+
+.widget.dashboard {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+	border-radius: 3px !important;
+}
+
+.dashboard .widget-header {
+	background: #d3e5f3 !important;
+	padding: 8px 0 !important;
 }
 
 #tblheader,
