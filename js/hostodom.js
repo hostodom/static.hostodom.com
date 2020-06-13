@@ -9,6 +9,10 @@ $(document).ready(function() {
 		e.preventDefault();
 		window.location = 'https://help.hostodom.com/portal/newticket';
 	});
+	$('.col.misc .secondary-links li a').click(function(e){
+		e.preventDefault();
+		window.location = 'https://resellers.hostodom.com';
+	});
 });
 
 // External links
