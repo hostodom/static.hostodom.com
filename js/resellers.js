@@ -1,11 +1,11 @@
 //*** Hostodom Resellers
 
-$(document).ready(function() {
-});
-
 // jQuery Functions
 $(document).ready(function() {
-    $('#introLoading').introLoader();
+	$.fakeLoader({
+		bgColor: '#fff',
+		spinner: 'spinner2'
+	});
 	$('#menu0').css('font-size', '18px');
 	$('.home-banner img').width(760);
 });
