@@ -75,12 +75,29 @@ div,
 	width: 50px !important;
 }
 
+#profile-image svg {
+	width: 18px !important;
+	height: 18px !important
+}
+
 #control-panel-menu {
 	background: #405f77 !important;
 }
 
 #control-panel-menu tbody tr td {
 	background: none !important;
+}
+
+#control-panel-menu .mmenu #menu1,
+#control-panel-menu .mmenu #menu2,
+#control-panel-menu .mmenu #menu3,
+#control-panel-menu .mmenu #menu4,
+#control-panel-menu .mmenu #menu5,
+#control-panel-menu .mmenu #menu6,
+#control-panel-menu .mmenu #menu7,
+#control-panel-menu .mmenu #menu9 {
+	background: #405f77 !important;
+	border-color: #496982 !important;
 }
 
 #footer-wrapper {
