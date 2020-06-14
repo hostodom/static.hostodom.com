@@ -245,3 +245,30 @@ div,
 	font-size: 14px !important;
 	padding: 15px 0 !important;
 }
+
+/* Loader */
+
+#preloader {
+    -moz-animation: loaderAnimation 0s ease-in 5s forwards;
+    -webkit-animation: loaderAnimation 0s ease-in 5s forwards;
+    -o-animation: loaderAnimation 0s ease-in 5s forwards;
+    animation: loaderAnimation 0s ease-in 5s forwards;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes loaderAnimation {
+    to {
+        width:0;
+        height:0;
+        overflow:hidden;
+    }
+}
+
+@-webkit-keyframes loaderAnimation {
+    to {
+        width:0;
+        height:0;
+        visibility:hidden;
+    }
+}
