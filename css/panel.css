@@ -106,11 +106,14 @@ div,
 #control-panel-header-user-email {
 	padding: 0 !important;
 	width: auto !important;
-	margin-left: 20px !important;
 	display: block !important;
-	font-size: 15px;
+	font-size: 15px !important;
 	font-weight: 400 !important;
 	color: #405f77 !important;
+	float: none !important;
+	text-align: right;
+	max-width: 320px;
+	margin: 0 100px 0 auto;
 }
 
 #manage-profile-widget {
