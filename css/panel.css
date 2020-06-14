@@ -232,6 +232,7 @@ div,
 	margin-bottom: 10px !important;
 	font-size: 14px !important;
 	color: #4d84d7 !important;
+	text-decoration: none !important;
 }
 
 .login-control a:hover {
