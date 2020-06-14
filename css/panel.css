@@ -239,6 +239,25 @@ div,
 	text-decoration: underline !important;
 }
 
+.forgot-container {
+	max-width: 360px !important;
+	margin: 80px auto 0 auto !important;
+	padding: 20px 20px 30px 20px !important;
+	border: 1px solid #eee !important;
+	box-shadow: 0 0 15px rgba(0, 0, 0, 0.1) !important;
+	background: #fefefe !important;
+}
+
+.forgot-container #ForgotPassword .fieldset-wrapper .input {
+	padding: 10px !important;
+	width: 93% !important;
+}
+
+.forgot-container #ForgotPassword .submit-button {
+	padding: 10px !important;
+	width: 100% !important;
+}
+
 #footer {
 	background: #fff !important;
 	color: #8ea6b9 !important;
