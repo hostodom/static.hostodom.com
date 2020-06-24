@@ -19,6 +19,21 @@ div,
 	font-family: 'Cuprum', sans-serif !important;
 }
 
+body table,
+body form table,
+.an-wrapper {
+	max-width: 1000px !important;
+	margin: 0 auto !important;
+}
+
+.ob-v2-box-wrapper .ob-v2-heading {
+	background: #405f77 !important;
+}
+
+.ob-v2-box-wrapper .button-wrapper {
+	background: #a8bccb !important;
+}
+
 #navigation-shadow td {
 	padding: 10px 0 !important;
 }
@@ -37,6 +52,16 @@ div,
 	right: 0 !important;
 	top: 50px !important;
 	border: 1px solid #eee !important;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1 ) !important;
+}
+
+.menu-blurb .dropdown-arrow,
+.qtip .dropdown-arrow {
+	top: -9px !important;
+}
+
+.menu-blurb .dropdown-arrow .arrow-outer {
+	border-bottom-color: #d3e5f3 !important;
 }
 
 .manage-profile-holder {
@@ -114,9 +139,9 @@ div,
 	font-weight: 400 !important;
 	color: #405f77 !important;
 	float: none !important;
-	text-align: right;
-	max-width: 320px;
-	margin: 0 100px 0 auto;
+	text-align: right !important;
+	max-width: 320px !important;
+	margin: 0 80px 0 auto !important;
 }
 
 #manage-profile-widget {
@@ -133,7 +158,8 @@ div,
 	margin-right: 20px !important;
 }
 
-#control-panel-menu {
+body table#control-panel-menu {
+	max-width: 100% !important;
 	background: #405f77 !important;
 }
 
@@ -153,6 +179,10 @@ div,
 	border-color: #496982 !important;
 }
 
+.widget {
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+}
+
 .widget-header strong {
 	font-family: 'Roboto Slab', serif !important;
 	font-size: 15px !important;
@@ -164,6 +194,52 @@ div,
 .widget.dashboard {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
 	border-radius: 3px !important;
+}
+
+.dashboard .widget-content li {
+	font-size: 15px !important;
+}
+
+.ui-bullet {
+	width: 15px !important;
+	height: 15px !important;
+	border-radius: 50% !important;
+	background-color: #a8c7df !important;
+}
+
+.ui-bullet span {
+	top: -1px !important;
+	left: 4px !important;
+}
+
+.input-element, .dropdown-element, .small-input-element {
+	border: 1px solid #d0e0f0 !important;
+	padding: 0 10px 0 10px !important;
+	font-size: 15px !important	;
+	box-shadow: none !important;
+	height: 32px !important;
+	color: #405f77 !important;
+}
+
+.inline-button {
+	vertical-align: middle !important;
+	margin-bottom: 3px !important;
+	margin-left: 3px !important;
+	width: 32px !important;
+	height: 32px !important;
+	padding: 0 !important;
+	border: 1px solid #d0e0f0 !important;
+	background: #fefefe !important;
+	font-size: 20px !important;
+	font-weight: 400 !important;
+	line-height: normal !important;
+	color: #405f77 !important;
+}
+
+.inline-button:hover {
+	border: 1px solid #405f77 !important;
+	background: #405f77 !important;
+	color: #fefefe !important;
 }
 
 #page-container {
@@ -183,13 +259,6 @@ div,
 
 .sms-auth-icon {
 	background: url(data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBkPSJtMjU2IDMyYy0xNDEuNCAwLTI1NiA5My4xLTI1NiAyMDggMCA0OS42IDIxLjQgOTUgNTcgMTMwLjctMTIuNSA1MC40LTU0LjMgOTUuMy01NC44IDk1LjgtMi4yIDIuMy0yLjggNS43LTEuNSA4LjdzNC4xIDQuOCA3LjMgNC44YzY2LjMgMCAxMTYtMzEuOCAxNDAuNi01MS40IDMyLjcgMTIuMyA2OSAxOS40IDEwNy40IDE5LjQgMTQxLjQgMCAyNTYtOTMuMSAyNTYtMjA4cy0xMTQuNi0yMDgtMjU2LTIwOHptLTEyNy44IDI3MmgtMTIuMmMtNC40IDAtOC0zLjYtOC04di0xNmMwLTQuNCAzLjYtOCA4LThoMTIuM2M2IDAgMTAuNC0zLjUgMTAuNC02LjYgMC0xLjMtLjgtMi43LTIuMS0zLjhsLTIxLjktMTguOGMtOC41LTcuMi0xMy4zLTE3LjUtMTMuMy0yOC4xIDAtMjEuMyAxOS0zOC42IDQyLjQtMzguNmgxMi4yYzQuNCAwIDggMy42IDggOHYxNmMwIDQuNC0zLjYgOC04IDhoLTEyLjNjLTYgMC0xMC40IDMuNS0xMC40IDYuNiAwIDEuMy44IDIuNyAyLjEgMy44bDIxLjkgMTguOGM4LjUgNy4yIDEzLjMgMTcuNSAxMy4zIDI4LjEuMSAyMS4zLTE5IDM4LjYtNDIuNCAzOC42em0xOTEuOC04YzAgNC40LTMuNiA4LTggOGgtMTZjLTQuNCAwLTgtMy42LTgtOHYtNjguMmwtMjQuOCA1NS44Yy0yLjkgNS45LTExLjQgNS45LTE0LjMgMGwtMjQuOS01NS44djY4LjJjMCA0LjQtMy42IDgtOCA4aC0xNmMtNC40IDAtOC0zLjYtOC04di0xMDRjMC04LjggNy4yLTE2IDE2LTE2aDE2YzYuMSAwIDExLjYgMy40IDE0LjMgOC44bDE3LjcgMzUuNCAxNy43LTM1LjRjMi43LTUuNCA4LjMtOC44IDE0LjMtOC44aDE2YzguOCAwIDE2IDcuMiAxNiAxNnptNDguMyA4aC0xMi4zYy00LjQgMC04LTMuNi04LTh2LTE2YzAtNC40IDMuNi04IDgtOGgxMi4zYzYgMCAxMC40LTMuNSAxMC40LTYuNiAwLTEuMy0uOC0yLjctMi4xLTMuOGwtMjEuOS0xOC44Yy04LjUtNy4yLTEzLjMtMTcuNS0xMy4zLTI4LjEgMC0yMS4zIDE5LTM4LjYgNDIuNC0zOC42aDEyLjJjNC40IDAgOCAzLjYgOCA4djE2YzAgNC40LTMuNiA4LTggOGgtMTIuM2MtNiAwLTEwLjQgMy41LTEwLjQgNi42IDAgMS4zLjggMi43IDIuMSAzLjhsMjEuOSAxOC44YzguNSA3LjIgMTMuMyAxNy41IDEzLjMgMjguMS4xIDIxLjMtMTguOSAzOC42LTQyLjMgMzguNnoiIGZpbGw9IiM2ZGNmNTQiLz48L3N2Zz4=) no-repeat !important;
-}
-
-body table,
-body form table,
-.an-wrapper {
-	max-width: 1000px !important;
-	margin: 0 auto !important;
 }
 
 /* Login page */
