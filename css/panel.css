@@ -199,7 +199,8 @@ body table#control-panel-menu {
 
 .header-support-box h5 {
 	margin-top: 3px;
-	font-size: 13px;
+	font-size: 14px !important;
+	font-weight: 700 !important;
 }
 
 .header-support-box p {
