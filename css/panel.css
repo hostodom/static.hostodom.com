@@ -15,8 +15,14 @@ div,
 .login-page-body .login-submit,
 .logoutTable,
 .headerfont,
+.NormRow,
+.submit,
 #footer {
 	font-family: 'Cuprum', sans-serif !important;
+}
+
+.addfundstitle h1 {
+	font-family: 'Roboto Slab', serif !important;
 }
 
 body table,
@@ -249,6 +255,13 @@ body table#control-panel-menu {
 
 .header-support-box i.icon-support:before {
 	background: url('https://static.hostodom.com/img/panel/icon-help.svg') no-repeat center center;
+}
+
+.login-page-body #header.header {
+	display: block !important;
+	overflow: hidden !important;
+	max-width: 320px !important;
+	max-height: 64px !important;
 }
 
 #control-panel-menu tbody tr td {
@@ -492,6 +505,45 @@ hr {
 	color: #8ea6b9 !important;
 	font-size: 14px !important;
 	padding: 15px 0 !important;
+}
+
+/* Page / Add funds */
+
+.an-wrapper .rightcolumn p.strong,
+.an-wrapper .leftcolumn p.strong {
+	font: 700 15px/18px 'Cuprum' sans-serif !important;
+}
+
+.an-wrapper li label {
+	font: 14px/18px 'Cuprum' sans-serif !important;
+}
+
+.an-continue {
+	background: #4d84d7 !important;
+	border: 1px solid #4d84d7 !important;
+	font: bold 13px/20px 'Cuprum' sans-serif !important;
+	color: #fff !important;
+	border-radius: 3px !important;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) !important;
+	padding: 10px 30px !important;
+	box-shadow: none !important;
+}
+
+.NormRow,
+.logoutTable tr td {
+	color: #42515c !important;
+}
+
+.submit {
+	background: #d6e7ef;
+	border-bottom: #104a7b 1px solid;
+	border-left: #afc4d5 1px solid;
+	border-right: #104a7b 1px solid;
+	border-top: #afc4d5 1px solid;
+	color: #006;
+	font-size: 11px;
+	height: 19px;
+	text-decoration: none;
 }
 
 /* Forms */
