@@ -205,6 +205,8 @@ body table#control-panel-menu {
 	padding-bottom: 0 !important;
 	font-style: italic;
 	color: #718ea5 !important;
+	font-size: 13px !important;
+	line-height: 15px !important;
 }
 
 .header-support-box i {
@@ -466,10 +468,9 @@ body table#control-panel-menu {
 }
 
 hr {
-	height: 2px !important;
+	height: 1px !important;
 	border-width: 0 !important;
 	background-color: #99a9b5 !important;
-	color: #99a9b5 !important;
 }
 
 #page-container hr {
