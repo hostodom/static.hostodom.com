@@ -188,7 +188,7 @@ body table#control-panel-menu {
 
 .header-support-box:hover {
 	border-color: #e5effe !important;
-	text-decoration: underline !important;
+	color: #6dcf54 !important;
 }
 
 .header-support-box:not(:last-child) {
@@ -225,6 +225,7 @@ body table#control-panel-menu {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
+	margin-top: 9px;
 	width: 24px;
 	height: 24px;
 }
