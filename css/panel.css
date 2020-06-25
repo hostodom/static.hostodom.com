@@ -181,14 +181,23 @@ body table#control-panel-menu {
 	height: 42px !important;
 	padding-right: 10px;
 	padding-left: 50px;
-	border: 1px solid transparent;
+	border: 1px solid #e5effe;
 	color: #405f77;
 	text-decoration: none !important;
+	transition: all 0.5s !important;
 }
 
 .header-support-box:hover {
-	border-color: #e5effe !important;
+	border-color: #6dcf54 !important;
+}
+
+.header-support-box:hover,
+.header-support-box:hover p {
 	color: #6dcf54 !important;
+}
+
+.header-support-box:hover i {
+	background: #6dcf54 !important;
 }
 
 .header-support-box:not(:last-child) {
@@ -196,8 +205,8 @@ body table#control-panel-menu {
 }
 
 .header-support-box h5 {
-	margin-top: 3px;
-	font-size: 14px !important;
+	margin-top: 4px;
+	font-size: 15px !important;
 	font-weight: 700 !important;
 }
 
