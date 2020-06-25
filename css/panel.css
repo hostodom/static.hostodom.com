@@ -461,8 +461,19 @@ body table#control-panel-menu {
 /* Page / Orders */
 
 .h1-bdr {
-	border-bottom: 2px solid #405f77 !important;
+	border-bottom: 2px solid #99a9b5 !important;
 	margin-bottom: 20px !important;
+}
+
+hr {
+	height: 2px !important;
+	border-width: 0 !important;
+	background-color: #99a9b5 !important;
+	color: #99a9b5 !important;
+}
+
+#page-container hr {
+	margin-top: 20px !important;
 }
 
 #footer {
