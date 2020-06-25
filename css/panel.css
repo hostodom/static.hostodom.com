@@ -190,7 +190,7 @@ body table#control-panel-menu {
 	border: 1px solid #e5effe;
 	color: #405f77;
 	text-decoration: none !important;
-	transition: all 0.5s !important;
+	transition: all 0.25s !important;
 }
 
 .header-support-box:hover {
@@ -240,7 +240,6 @@ body table#control-panel-menu {
 	content: '';
 	display: inline-block;
 	vertical-align: middle;
-	margin-top: 9px;
 	width: 24px;
 	height: 24px;
 }
@@ -535,15 +534,14 @@ hr {
 }
 
 .submit {
-	background: #d6e7ef;
-	border-bottom: #104a7b 1px solid;
-	border-left: #afc4d5 1px solid;
-	border-right: #104a7b 1px solid;
-	border-top: #afc4d5 1px solid;
-	color: #006;
-	font-size: 11px;
-	height: 19px;
-	text-decoration: none;
+	height: 26px !important;
+	margin: 10px 0 !important;
+	padding-left: 15px !important;
+	padding-right: 15px !important;
+	border: 1px solid #a6c1eb !important;
+	background: #e5effe !important;
+	font-size: 14px !important;
+	color: #42515c !important;
 }
 
 /* Forms */
