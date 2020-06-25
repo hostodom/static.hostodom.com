@@ -168,9 +168,7 @@ body table#control-panel-menu {
 /* Logo Support Menu */
 
 #header.header {
-	display: flex;
-	justify-content: space-between;
-	min-width: 1000px;
+	display: block !important;
 }
 
 .header-support-info {
@@ -204,6 +202,7 @@ body table#control-panel-menu {
 }
 
 .header-support-box p {
+	padding-bottom: 0 !important;
 	font-style: italic;
 	color: #718ea5 !important;
 }
@@ -504,4 +503,16 @@ body table#control-panel-menu {
         height:0;
         visibility:hidden;
     }
+}
+
+/** Responsive **/
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width : 1200px) {
+	#header.header {
+		display: flex !important;
+		justify-content: space-between !important;
+		min-width: 1000px !important;
+	}
 }
