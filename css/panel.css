@@ -111,7 +111,11 @@ body form table,
 .dashboard .widget-header,
 .announcements .widget-header {
 	background: #d3e5f3 !important;
-	padding: 8px 0 !important;
+	padding: 6px 12px !important;
+}
+
+.announcements .widget-header {
+	padding: 1px 12px !important;
 }
 
 #tblheader,
