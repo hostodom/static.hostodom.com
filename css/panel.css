@@ -36,6 +36,7 @@ body form table,
 
 #navigation-shadow td {
 	padding: 10px 0 !important;
+	background: none !important;
 }
 
 #store-buy-button {
@@ -179,6 +180,16 @@ body table#control-panel-menu {
 	border-color: #496982 !important;
 }
 
+#menu0 a#mmlink0, #menu0 a#mmlink1, #menu0 a#mmlink2,
+#menu0 a#mmlink3, #menu0 a#mmlink4, #menu0 a#mmlink5,
+#menu0 a#mmlink6, #menu0 a#mmlink7, #menu0 a#mmlink8 {
+	font-size: 16px !important;
+}
+
+#column_1, #column_2 {
+	min-width: 320px !important;
+}
+
 .widget {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
 }
@@ -196,8 +207,23 @@ body table#control-panel-menu {
 	border-radius: 3px !important;
 }
 
+.dashboard .widget-content,
+.widget-content,
+.widget.announcements {
+	border: 1px solid #d0e0f0 !important;
+}
+
+.widget-content {
+	color: #42515c !important;
+}
+
 .dashboard .widget-content li {
 	font-size: 15px !important;
+}
+
+.dashboard .widget-content li a:hover {
+	color: #6dcf54 !important;
+	text-decoration: none !important;
 }
 
 .ui-bullet {
@@ -234,6 +260,7 @@ body table#control-panel-menu {
 	font-weight: 400 !important;
 	line-height: normal !important;
 	color: #405f77 !important;
+	transition: all 0.33s !important;
 }
 
 .inline-button:hover {
@@ -356,6 +383,13 @@ body table#control-panel-menu {
 	padding: 10px !important;
 }
 
+/* Page / Orders */
+
+.h1-bdr {
+	border-bottom: 2px solid #405f77 !important;
+	margin-bottom: 20px !important;
+}
+
 #footer {
 	background: #fff !important;
 	color: #8ea6b9 !important;
@@ -363,13 +397,19 @@ body table#control-panel-menu {
 	padding: 15px 0 !important;
 }
 
+/* Forms */
+
+.widget .widget-content form input.input-element:focus {
+	background: #e4eef9 !important;
+}
+
 /* Loader */
 
 #preloader {
-    -moz-animation: loaderAnimation 0s ease-in 2s forwards;
-    -webkit-animation: loaderAnimation 0s ease-in 2s forwards;
-    -o-animation: loaderAnimation 0s ease-in 2s forwards;
-    animation: loaderAnimation 0s ease-in 2s forwards;
+    -moz-animation: loaderAnimation 0s ease-in 1s forwards;
+    -webkit-animation: loaderAnimation 0s ease-in 1s forwards;
+    -o-animation: loaderAnimation 0s ease-in 1s forwards;
+    animation: loaderAnimation 0s ease-in 1s forwards;
     -webkit-animation-fill-mode: forwards;
     animation-fill-mode: forwards;
 }
