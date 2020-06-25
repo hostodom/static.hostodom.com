@@ -164,6 +164,66 @@ body table#control-panel-menu {
 	background: #405f77 !important;
 }
 
+/* Logo Support Menu */
+
+.header-support-info {
+	float: right;
+	margin-top: 12px !important;
+}
+
+.header-support-box {
+	position: relative !important;
+	display: inline-block;
+	padding-left: 52px;
+	color: #405f77;
+}
+
+.header-support-box:not(:last-child) {
+	margin-right: 15px;
+}
+
+.header-support-box h5 {
+	margin-top: 3px;
+	font-size: 13px;
+}
+
+.header-support-box p {
+	font-style: italic;
+	color: #718ea5 !important;
+}
+
+.header-support-box i {
+	position: absolute;
+	left: 0;
+	display: inline-block;
+	font-size: 24px;
+	height: 42px;
+	width: 42px;
+	line-height: 42px;
+	background-color: #e5effe;
+	text-align: center;
+}
+
+.header-support-box i:before {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	width: 24px;
+	height: 24px;
+}
+
+.header-support-box i.icon-globe:before {
+	background: url('https://static.hostodom.com/img/panel/icon-globe.svg') no-repeat center center;
+}
+
+.header-support-box i.icon-server:before {
+	background: url('https://static.hostodom.com/img/panel/icon-server.svg') no-repeat center center;
+}
+
+.header-support-box i.icon-help:before {
+	background: url('https://static.hostodom.com/img/panel/icon-help.svg') no-repeat center center;
+}
+
 #control-panel-menu tbody tr td {
 	background: none !important;
 }
@@ -180,10 +240,9 @@ body table#control-panel-menu {
 	border-color: #496982 !important;
 }
 
-#menu0 a#mmlink0, #menu0 a#mmlink1, #menu0 a#mmlink2,
-#menu0 a#mmlink3, #menu0 a#mmlink4, #menu0 a#mmlink5,
-#menu0 a#mmlink6, #menu0 a#mmlink7, #menu0 a#mmlink8 {
+#menu0 * {
 	font-size: 16px !important;
+	letter-spacing: 0.05rem !important;
 }
 
 #column_1, #column_2 {
@@ -192,6 +251,7 @@ body table#control-panel-menu {
 
 .widget {
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1) !important;
+	border: 1px solid #d0e0f0 !important;
 }
 
 .widget-header strong {
@@ -208,9 +268,8 @@ body table#control-panel-menu {
 }
 
 .dashboard .widget-content,
-.widget-content,
-.widget.announcements {
-	border: 1px solid #d0e0f0 !important;
+.widget-content {
+	border: none !important;
 }
 
 .widget-content {
