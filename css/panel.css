@@ -211,7 +211,8 @@ body table#control-panel-menu {
 }
 
 .header-support-box h5 {
-	margin-top: 4px;
+	margin-top: 4px !important;
+	margin-bottom: 2px !important;
 	font-size: 15px !important;
 	font-weight: 700 !important;
 }
