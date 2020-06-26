@@ -10,6 +10,9 @@ html body {
 
 body,
 div,
+p,
+select,
+.info-msg,
 #control-panel-header-user-email,
 .mmenu *,
 .login-page-body .login-submit,
@@ -130,6 +133,14 @@ body form table,
 
 #tblheader {
 	margin: 50px auto 10px auto !important;
+}
+
+#header-table {
+	background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAgCAMAAADkO+IoAAAAYFBMVEXl7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7l7/7Y6ATUAAAAH3RSTlP79fDp4tvUy8O6sKedlIl/dWxiWE5FPTQrJBwVDwkFRDxIWQAAADFJREFUeF4FwIMRgAAAAMDPtr3/lp0PgVAklkhlcoVSpdZodXqD0WS2WG12h9Pl9nh/LNAB8VIpA9kAAAAASUVORK5CYII=) repeat-x left top !important;
+}
+
+#header-table td {
+	font-size: 12px !important;
 }
 
 .mainnav-header {
@@ -385,6 +396,17 @@ body table#control-panel-menu {
 .language-blurb-wrp {
 	width: 100% !important;
 	border-bottom: 1px solid #eee !important;
+}
+
+/* Messages */
+
+.info-msg {
+	border: 1px solid #bcd1f0 !important;
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjNzlhMmUxIiBkPSJNMjU2IDhDMTE5LjA0MyA4IDggMTE5LjA4MyA4IDI1NmMwIDEzNi45OTcgMTExLjA0MyAyNDggMjQ4IDI0OHMyNDgtMTExLjAwMyAyNDgtMjQ4QzUwNCAxMTkuMDgzIDM5Mi45NTcgOCAyNTYgOHptMCAxMTBjMjMuMTk2IDAgNDIgMTguODA0IDQyIDQycy0xOC44MDQgNDItNDIgNDItNDItMTguODA0LTQyLTQyIDE4LjgwNC00MiA0Mi00MnptNTYgMjU0YzAgNi42MjctNS4zNzMgMTItMTIgMTJoLTg4Yy02LjYyNyAwLTEyLTUuMzczLTEyLTEydi0yNGMwLTYuNjI3IDUuMzczLTEyIDEyLTEyaDEydi02NGgtMTJjLTYuNjI3IDAtMTItNS4zNzMtMTItMTJ2LTI0YzAtNi42MjcgNS4zNzMtMTIgMTItMTJoNjRjNi42MjcgMCAxMiA1LjM3MyAxMiAxMnYxMDBoMTJjNi42MjcgMCAxMiA1LjM3MyAxMiAxMnYyNHoiPjwvcGF0aD48L3N2Zz4=) #d2e0f5 no-repeat 10px 13px !important;
+	background-size: 18px 18px !important;
+	padding: 10px 35px !important;
+	margin: 15px 25px 10px 25px !important;
+	font-size: 13px !important;
 }
 
 /* Account & Security */
