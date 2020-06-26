@@ -479,6 +479,11 @@ body table#control-panel-menu {
 	color: #fff !important;
 }
 
+.save-profile-info:hover,
+.save-profile-info-edit:hover {
+	opacity: 0.75 !important;
+}
+
 /* Login page */
 
 .login-page-body #tblheader {
@@ -703,6 +708,10 @@ input, textarea, select,
 select {
     height: 32px !important;
     padding: 0 10px !important;
+}
+
+.quirk-mode #navigation-shadow + table {
+	margin-bottom: 15px !important;
 }
 
 /* Loader */
