@@ -750,7 +750,7 @@ input {
 }
 
 a:hover {
-    color: #6dcf54 !important;
+    color: #6dcf54;
 }
 
 select {
