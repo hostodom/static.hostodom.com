@@ -446,6 +446,7 @@ body table#control-panel-menu {
 .help-content-fade h3,
 .help-info,
 .error-msg,
+.help-blurb-ico,
 .global-individual-error-msg {
 	background-size: 16px 16px !important;
 }
@@ -614,12 +615,17 @@ input.button:hover {
 .an-continue {
 	background: #4d84d7 !important;
 	border: 1px solid #4d84d7 !important;
-	font: bold 13px/20px 'Cuprum' sans-serif !important;
+	font: bold 15px/20px 'Cuprum' sans-serif !important;
 	color: #fff !important;
 	border-radius: 3px !important;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) !important;
 	padding: 10px 30px !important;
 	box-shadow: none !important;
+}
+
+.an-continue:hover {
+	background: #285fb2 !important;
+	border: 1px solid #285fb2 !important;
 }
 
 .NormRow,
@@ -653,6 +659,7 @@ input.button:hover {
 .submit-button:hover {
 	border: 1px #285fb2 !important;
 	background: #285fb2 !important;
+	cursor: pointer !important;
 }
 
 /* Forms */
