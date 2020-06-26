@@ -17,6 +17,7 @@ div,
 .headerfont,
 .NormRow,
 .submit,
+.submit-button,
 #footer {
 	font-family: 'Cuprum', sans-serif !important;
 }
@@ -247,6 +248,10 @@ body table#control-panel-menu {
 	vertical-align: middle;
 	width: 24px;
 	height: 24px;
+}
+
+.quirk-mode .header-support-box i:before {
+	margin-top: 9px !important;
 }
 
 .header-support-box i.icon-globe:before {
@@ -547,6 +552,19 @@ hr {
 	background: #e5effe !important;
 	font-size: 14px !important;
 	color: #42515c !important;
+}
+
+/* Page / Witdraw funds */
+
+.submit-button {
+	padding: 8px 15px !important;
+	border-radius: 3px !important;
+	border: 1px #4d84d7 !important;
+	background: #4d84d7 !important;
+	font-size: 14px !important;
+	font-weight: 700 !important;
+	color: #fff !important;
+	cursor: pointer !important;
 }
 
 /* Forms */
