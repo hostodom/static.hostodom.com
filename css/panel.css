@@ -662,6 +662,17 @@ input.button:hover {
 	font: 14px/18px 'Cuprum' sans-serif !important;
 }
 
+.an-wrapper .rightcolumn p.strong,
+.an-wrapper .leftcolumn p.strong {
+	font: 700 16px/18px 'Cuprum', sans-serif !important;
+	color: #405f77 !important;
+}
+
+.an-wrapper li label {
+	font: 700 16px/18px 'Cuprum', sans-serif !important;
+	color: #405f77 !important;
+}
+
 .an-continue {
 	background: #4d84d7 !important;
 	border: 1px solid #4d84d7 !important;
@@ -671,6 +682,8 @@ input.button:hover {
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) !important;
 	padding: 10px 30px !important;
 	box-shadow: none !important;
+	font-size: 16px !important;
+	letter-spacing: 0.033rem;
 }
 
 .an-continue:hover {
