@@ -608,6 +608,10 @@ input.button:hover {
 	font: 700 15px/18px 'Cuprum' sans-serif !important;
 }
 
+.addfundstitle h1 {
+	color: #405f77 !important;
+}
+
 .an-wrapper li label {
 	font: 14px/18px 'Cuprum' sans-serif !important;
 }
