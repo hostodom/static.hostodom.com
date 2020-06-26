@@ -494,12 +494,16 @@ body table#control-panel-menu {
 .save-profile-info-edit {
 	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MTIgNTEyIj48cGF0aCBmaWxsPSIjZmZmZmZmIiBkPSJNNDk3LjkgMTQyLjFsLTQ2LjEgNDYuMWMtNC43IDQuNy0xMi4zIDQuNy0xNyAwbC0xMTEtMTExYy00LjctNC43LTQuNy0xMi4zIDAtMTdsNDYuMS00Ni4xYzE4LjctMTguNyA0OS4xLTE4LjcgNjcuOSAwbDYwLjEgNjAuMWMxOC44IDE4LjcgMTguOCA0OS4xIDAgNjcuOXpNMjg0LjIgOTkuOEwyMS42IDM2Mi40LjQgNDgzLjljLTIuOSAxNi40IDExLjQgMzAuNiAyNy44IDI3LjhsMTIxLjUtMjEuMyAyNjIuNi0yNjIuNmM0LjctNC43IDQuNy0xMi4zIDAtMTdsLTExMS0xMTFjLTQuOC00LjctMTIuNC00LjctMTcuMSAwek0xMjQuMSAzMzkuOWMtNS41LTUuNS01LjUtMTQuMyAwLTE5LjhsMTU0LTE1NGM1LjUtNS41IDE0LjMtNS41IDE5LjggMHM1LjUgMTQuMyAwIDE5LjhsLTE1NCAxNTRjLTUuNSA1LjUtMTQuMyA1LjUtMTkuOCAwek04OCA0MjRoNDh2MzYuM2wtNjQuNSAxMS4zLTMxLjEtMzEuMUw1MS43IDM3Nkg4OHY0OHoiPjwvcGF0aD48L3N2Zz4=) no-repeat 10px center #4d84d7 !important;
 	background-size: 15px 15px !important;
-	border: 1px solid #4d84d7 !important;
 	border-radius: 3px !important;
 	outline: 0 !important;
 	box-shadow: none !important;
 	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) !important;
 	color: #fff !important;
+}
+
+#profile-change .save-profile-info,
+#profile-change .save-profile-info-edit {
+	border: 1px solid #4d84d7 !important;
 }
 
 .save-profile-info:hover,
@@ -629,6 +633,27 @@ hr {
 	color: #8ea6b9 !important;
 	font-size: 14px !important;
 	padding: 15px 0 !important;
+}
+
+/* Page / Profile  */
+
+#manage-reseller-profile table td .section-heading {
+	color: #405f77 !important;
+}
+
+#twofa-gauth-setup-modal-blurb .modal-box-content .start-setup-btn,
+#twofa-gauth-setup-modal-blurb .modal-box-content .send-verification-email-btn,
+#twofa-gauth-setup-modal-blurb .modal-box-content .proceed-to-setup-btn,
+#twofa-gauth-setup-modal-blurb .modal-box-content .backup-code-details .done-setup-btn,
+#twofa-gauth-setup-modal-blurb .modal-box-content .start-setup-gauth-btn {
+	background: #4d84d7 !important;
+	border: 1px solid #4d84d7 !important;
+	color: #fff !important;
+	font: 700 15px/30px 'Cuprum', san-serif !important;
+	text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.1) !important;
+	border-radius: 3px !important;
+	box-shadow: none !important;
+	cursor: pointer !important;
 }
 
 /* Page / Contacts */
