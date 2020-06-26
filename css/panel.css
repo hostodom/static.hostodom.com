@@ -237,6 +237,7 @@ body table#control-panel-menu {
 }
 
 .header-support-box p {
+	margin: 0 !important;
 	padding-bottom: 0 !important;
 	font-style: italic;
 	color: #718ea5 !important;
