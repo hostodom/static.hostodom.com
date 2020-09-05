@@ -20,5 +20,5 @@ document.head.appendChild(linkPanelCss);
 
 // Add Footer Text
 var current_year = new Date().getFullYear();
-var footer_copyright = document.getElementById("footer-wrapper");
-footer_copyright.prepend("<div class=\"footer-copyright\">&copy; " + current_year + " Hostodom. All rights reserved.</div>");
+var footer_year = document.getElementById("current-year");
+footer_year.innerHTML(current_year);
