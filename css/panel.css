@@ -799,13 +799,14 @@ select {
 
 #footer-wrapper {
 	margin-top: 2rem !important;
-	padding-top: 2rem !important;
+	padding: 2rem 0 !important;
 	border-top: 1px solid #ececec !important;
 }
 
 .footer-copyright {
-	margin: 2rem 0 3rem 0;
+	margin: 2rem 0;
 	text-align: center;
+	font-size: 15px;
 	color: #999;
 }
 
