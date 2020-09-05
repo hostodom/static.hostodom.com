@@ -787,6 +787,14 @@ select {
 	margin-bottom: 15px !important;
 }
 
+/* Footer */
+
+.footer-copyright {
+	margin: 2rem 0;
+	text-align: center;
+	color: #999;
+}
+
 /* Loader */
 
 #preloader {
