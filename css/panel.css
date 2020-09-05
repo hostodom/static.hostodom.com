@@ -212,6 +212,10 @@ body table#control-panel-menu {
 	transition: all 0.25s !important;
 }
 
+.header-support-box:hover i {
+	color: #fff !important;
+}
+
 .header-support-box:hover {
 	border-color: #6dcf54 !important;
 }
