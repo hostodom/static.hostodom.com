@@ -1,5 +1,12 @@
 //*** HOSTODOM CONTROL PANEL
 
+// Preloader
+function removePreloader() {
+	var preloader = document.getElementById("preloader");
+	preloader.parentNode.removeChild(preloader);
+}
+window.onload="removePreloader()";
+
 // Add Favicon
 var linkFavicon = document.createElement("link");
 linkFavicon.rel = "shortcut icon";
