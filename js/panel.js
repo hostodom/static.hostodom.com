@@ -19,8 +19,6 @@ linkPanelCss.href = "https://static.hostodom.com/css/panel.css";
 document.head.appendChild(linkPanelCss);
 
 // Add Footer Text
-document.addEventListener("DOMContentLoaded", function(){
-	var current_year = new Date().getFullYear();
-	var footer_copyright = document.getElementById("footer-wrapper");
-	footer_copyright.prepend('<div class="footer-copyright">&copy; ' + current_year + ' Hostodom. All rights reserved.</div>');
-});
+var current_year = new Date().getFullYear();
+var footer_copyright = document.getElementById("footer-wrapper");
+footer_copyright.prepend('<div class="footer-copyright">&copy; ' + current_year + ' Hostodom. All rights reserved.</div>');
