@@ -1,10 +1,11 @@
 //*** HOSTODOM CONTROL PANEL
 
-// jQuery Functions
-$(document).ready(function() {
-	$('#preloader').fade();
-
-});
+// Preloader
+function removePreloader() {
+	var preloader = document.getElementById("preloader");
+	preloader.parentNode.removeChild(preloader);
+}
+window.onload="removePreloader()";
 
 // Add Favicon
 var linkFavicon = document.createElement("link");
