@@ -22,5 +22,5 @@ document.head.appendChild(linkPanelCss);
 document.addEventListener("DOMContentLoaded", function(){
 	var current_year = new Date().getFullYear();
 	var footer_copyright = document.getElementById("footer-wrapper");
-	footer_copyright.prepend('<div class="footer-copyright">&copy; ' + current_year + ' Hostodom. All rights reserved.');
+	footer_copyright.prepend('<div class="footer-copyright">&copy; ' + current_year + ' Hostodom. All rights reserved.</div>');
 });
