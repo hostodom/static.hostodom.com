@@ -399,8 +399,12 @@ body table#control-panel-menu {
 }
 
 .language-blurb-wrp {
-	width: 100% !important;
-	border-bottom: 1px solid #eee !important;
+	position: fixed !important;
+	right: 0 !important;
+	bottom: 0 !important;
+	width: auto !important;
+	max-width: 125px !important;
+	border-bottom: none !important;
 }
 
 /* Messages */
@@ -788,6 +792,12 @@ select {
 }
 
 /* Footer */
+
+#footer-wrapper {
+	margin-top: 2rem !important;
+	padding-top: 2rem !important;
+	border-top: 1px solid #ececec !important;
+}
 
 .footer-copyright {
 	margin: 2rem 0;
