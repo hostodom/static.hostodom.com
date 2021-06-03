@@ -130,6 +130,12 @@ table.dataTable td,
 
 /* Header */
 
+@media only screen and (max-width: 480px) {
+	#page-container {
+		padding-top: 10px !important;
+	}
+}
+
 .new-head-gray-bg#top-header {
 	min-width: 100% !important;
 	background: #f9f9f9 !important;
@@ -383,10 +389,10 @@ table.dataTable td,
 
 @media only screen and (max-width: 480px) {
 	.bundles-hp-blurb {
-		margin-top: 50px;
+		margin-top: 50px !important;
 	}
 	.bundles-hp-blurb h1 {
-		line-height: 1.2;
+		line-height: 1.2 !important;
 	}
 }
 
@@ -519,11 +525,10 @@ table.dataTable td,
 	.homepage-product-details {
 		height: auto !important;
 	}
-	#hp-reseller-hosting .highlight-block {
+	.homepage-products .highlight-block {
 		float: left !important;
 	}
 }
-
 
 @media only screen and (max-width: 480px) {
 	.highlight-block ~ .homepage-pricing {
@@ -1010,7 +1015,7 @@ table.dataTable td {
 
 @media only screen and (max-width: 480px) {
 	.new-footer-style .copyright-info-container span {
-		display: block !important;
+		display: block;
 		margin: 0.75rem auto !important;
 	}
 	.new-footer-style .copyright-info-container span a i {
@@ -1060,3 +1065,5 @@ table.dataTable td {
 		background: #6dcf54 !important;
 	}
 }
+
+/* 2021-06-03 16:17:30 */
