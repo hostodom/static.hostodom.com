@@ -142,6 +142,7 @@ table.dataTable td,
 }
 
 .top-bar-support {
+	padding-top: 2px !important;
 	height: 40px !important;
 	line-height: 40px !important;
 	float: left !important;
@@ -774,6 +775,12 @@ table.dataTable td {
 
 /* Page / Login */
 
+.loginform label,
+#rememberme {
+	text-align: left;
+	padding-left: 0.5rem;
+}
+
 .ui-sub-heading {
 	color: #405f77 !important;
 	font-size: 22px !important;
@@ -796,7 +803,11 @@ table.dataTable td {
 }
 
 #cust-login-form button {
-	    width: 100% !important;
+	width: 100% !important;
+}
+
+.error-message {
+	padding: 10px !important;
 }
 
 /* Modals */
@@ -1066,4 +1077,4 @@ table.dataTable td {
 	}
 }
 
-/* 2021-06-03 16:17:30 */
+/* 2021-06-03 17:19:14 */
