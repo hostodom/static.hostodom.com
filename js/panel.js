@@ -21,13 +21,8 @@ document.head.appendChild(linkPanelCss);
 
 // Events on page load
 document.addEventListener("DOMContentLoaded", function() {
-	// Style sub-menu
-	var main_submenus = document.querySelectorAll("#control-panel-menu #menu1, #control-panel-menu #menu2, #control-panel-menu #menu3, #control-panel-menu #menu4, #control-panel-menu #menu5, #control-panel-menu #menu6, #control-panel-menu #menu7, #control-panel-menu #menu8");
-	main_submenus.style.background = "#405f77 !important";
-	// If logged out return to main login
-	if (window.location.href = 'https://panel.hostodom.com/servlet/AuthServlet') {
-		window.location.replace("https://panel.hostodom.com/servlet/LoginServlet?role=customer&currenturl=https://panel.hostodom.com");
-	}
+	var login_role = document.getElementById('login-role');
+	login_role.options[1].selected = true;
 });
 
 // Add Footer Text
@@ -35,4 +30,4 @@ var current_year = new Date().getFullYear();
 var footer_year = document.getElementById("current-year");
 footer_year.innerHTML(current_year);
 
-// 2021-06-03 17:19:47
+// 2021-06-03 18:38:36
