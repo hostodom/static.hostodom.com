@@ -13,6 +13,7 @@ div,
 p,
 input,
 select,
+select option,
 .info-msg,
 .page-heading,
 #control-panel-header-user-email,
@@ -612,7 +613,7 @@ body table#control-panel-menu {
 .headerfont {
 	color: #405f77 !important;
 	font-size: 15px !important;
-	font-weight: normal !important;
+	font-weight: 700 !important;
 	text-transform: uppercase !important;
 	text-shadow: 1px 1px rgba(255, 255, 255, 0.5) !important;
 	letter-spacing: 0.05rem !important;
@@ -735,17 +736,43 @@ input.button:hover {
 
 .NormRow {
 	font-size: 15px !important;
+	line-height: 2.4 !important;
+}
+
+/* Form Email Preferences */
+
+form[name="EmailPrefForm"] * {
+	font-size: 15px !important;
+}
+
+form[name="EmailPrefForm"] > table {
+	margin-top: 1.5rem !important;
+}
+
+form[name="EmailPrefForm"] .NormRow a {
+	text-decoration: none !important;
+}
+
+form[name="EmailPrefForm"] .headertd {
+	line-height: 2.4 !important;
+	background: #e5effe !important;
 }
 
 .submit {
-	height: 26px !important;
+	height: 32px !important;
 	margin: 10px 0 !important;
-	padding-left: 15px !important;
-	padding-right: 15px !important;
+	padding-left: 20px !important;
+	padding-right: 20px !important;
 	border: 1px solid #a6c1eb !important;
 	background: #e5effe !important;
-	font-size: 14px !important;
+	font-size: 15px !important;
 	color: #42515c !important;
+	cursor: pointer !important;
+}
+
+.submit:hover {
+	background: #4d84d7 !important;
+	color: #fff !important;
 }
 
 /* Page / Witdraw funds */
@@ -755,7 +782,6 @@ input.button:hover {
 	border-radius: 3px !important;
 	border: 1px #4d84d7 !important;
 	background: #4d84d7 !important;
-	font-size: 14px !important;
 	font-weight: 700 !important;
 	color: #fff !important;
 }
@@ -852,3 +878,5 @@ select {
 		min-width: 1000px !important;
 	}
 }
+
+/* 2021-06-03 17:19:26 */
