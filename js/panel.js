@@ -22,7 +22,7 @@ document.head.appendChild(linkPanelCss);
 // Events on page load
 document.addEventListener("DOMContentLoaded", function() {
 	var login_role = document.getElementById('login-role');
-	login_role.options[1].selected = true;
+	login_role.options[0].selected = true;
 });
 
 // Add Footer Text
@@ -30,4 +30,4 @@ var current_year = new Date().getFullYear();
 var footer_year = document.getElementById("current-year");
 footer_year.innerHTML(current_year);
 
-// 2021-06-03 18:38:36
+// 2021-06-03 18:39:44
