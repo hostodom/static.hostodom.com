@@ -381,9 +381,24 @@ table.dataTable td,
 	font-size: 33px !important;
 }
 
+@media only screen and (max-width: 480px) {
+	.bundles-hp-blurb {
+		margin-top: 50px;
+	}
+	.bundles-hp-blurb h1 {
+		line-height: 1.2;
+	}
+}
+
 .new-homepage-wrapper {
 	margin: 0 !important;
 	background-position: center 160px !important;
+}
+
+@media only screen and (max-width: 480px) {
+	.homepage-products {
+		margin: 130px auto 0 auto !important;
+	}
 }
 
 .homepage-banner {
@@ -491,8 +506,29 @@ table.dataTable td,
 .homepage-product-details {
 	overflow: hidden !important;
 	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1) !important;
-	border-top-right-radius: 25px !important;
-	border-bottom-left-radius: 25px !important;
+}
+
+@media only screen and (min-width: 992px) {
+	.homepage-product-details {
+		border-top-right-radius: 25px !important;
+		border-bottom-left-radius: 25px !important;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.homepage-product-details {
+		height: auto !important;
+	}
+	#hp-reseller-hosting .highlight-block {
+		float: left !important;
+	}
+}
+
+
+@media only screen and (max-width: 480px) {
+	.highlight-block ~ .homepage-pricing {
+		border: none !important;
+	}
 }
 
 .homepage-banner .tlds-on-promo li span.tld-original-price,
@@ -795,6 +831,17 @@ table.dataTable td {
 
 .buy-bundles-plans {
 	background: #6dcf54 !important;
+	z-index: 99;
+}
+
+@media only screen and (max-width: 480px) {
+	.buy-bundles-plans {
+		position: relative !important;
+		top: unset !important;
+		right: unset !important;
+		display: block !important;
+		margin: 100px auto 0 auto !important;
+	}
 }
 
 .buy-bundles-plans:hover {
@@ -920,6 +967,23 @@ table.dataTable td {
 	width: auto !important;
 }
 
+@media only screen and (max-width: 480px) {
+	.new-footer-style #fineprint {
+		float: none !important;
+		text-align: center !important;
+	}
+}
+
+.footerLinks li a:hover {
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 480px) {
+	.footerLinks li {
+		margin: 0.25rem 1rem;
+	}
+}
+
 .footer-link-blog {
 	margin-left: 25px;
 }
@@ -942,6 +1006,16 @@ table.dataTable td {
 #page-footer .new-footer-style a.greytext,
 .new-footer-style .copyright-info-container span {
 	font-size: 16px !important;
+}
+
+@media only screen and (max-width: 480px) {
+	.new-footer-style .copyright-info-container span {
+		display: block !important;
+		margin: 0.75rem auto !important;
+	}
+	.new-footer-style .copyright-info-container span a i {
+		margin-right: 0.5rem !important;
+	}
 }
 
 .footer-social-links a:hover {
