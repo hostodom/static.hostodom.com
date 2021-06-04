@@ -5,6 +5,10 @@ body {
 	color: #222a30 !important;
 }
 
+p {
+	font: normal 15px/18px 'Cuprum', sans-serif !important;
+}
+
 a:hover {
 	color: #62ba4b;
 }
@@ -124,6 +128,11 @@ h2,
 }
 
 /* Forms */
+
+.frm-field, .frm-select {
+	padding: 3px 12px !important;
+	font-family: 'Cuprum', sans-serif !important;
+}
 
 .frm-field:focus,
 .sd-tarea:focus {
@@ -755,12 +764,29 @@ table.dataTable td {
 	color: #405f77 !important;
 }
 
+.alink {
+	font: normal 14px 'Cuprum', sans-serif !important;
+	color: #4d84d7 !important;
+}
+
+.tlds-sunrise-wrp .row-gray p {
+	font-size: 15px !important;
+}
+
 /* User Registration */
 
 #signup label[for="tnc_agree"] {
-	vertical-align: bottom !important;
+	vertical-align: middle !important;
 }
 
+#state-two {
+	padding-top: 0 !important;
+}
+
+.termnconditions,
+.terms-n-conditions,
+.termnconditions a,
+.terms-n-conditions a,
 label[for="tnc_agree"] {
 	font-size: 14px !important;
 }
@@ -769,21 +795,6 @@ label[for="tnc_agree"] {
 
 .sh-hosting-banner {
 	background-size: 100% !important;
-}
-
-/* Page / Bundles */
-
-.bundles-plans .bundles-plan-heading h2,
-.bundles-plans .bundles-step-one h2,
-.bundles-plans .bundles-step-two h2,
-.bundles-plans .bundles-step-three h2,
-.bundles-plans .bundles-step-four h2,
-.bundles-page-note {
-	color: #405f77 !important;
-}
-
-.bundles-page-note {
-	margin: 25px 0 !important;
 }
 
 /* Page / Login */
@@ -834,6 +845,11 @@ label[for="tnc_agree"] {
 	border: 1px solid #405f77 !important;
 	height: 30px !important;
 	line-height: 30px !important;
+}
+
+.frmSignupSplit select.frm-select, .loginform .custome-input {
+	padding: 0 !important;
+	color: #4a4a4a !important;
 }
 
 /* Page / Domain Pricing */
@@ -937,14 +953,117 @@ li.p-feat {
 	font: normal 16px/24px 'Cuprum', sans-serif !important;
 }
 
+/* Page / Websites / Weebly */
+
+.weebly-gallery-content p, .weebly-gallery-tabs li, .weebly-gallery-tabs li span {
+	font: 700 20px/24px 'Cuprum', sans-serif !important;
+}
+
+.weebly-gallery-tabs li {
+	margin-right: 5px !important;
+	color: #4d84d7 !important;
+}
+
+.weebly-gallery-tabs li.current-theme {
+	border-bottom: 3px solid #4d84d7 !important;
+}
+
+.weebly-gallery-content button {
+	margin: 20px auto 50px auto !important;
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	font: 700 20px/48px 'Cuprum', sans-serif !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+}
+
+.weebly-gallery-content button:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+.weebly-feature h3 {
+	font: 700 24px/28px 'Cuprum', sans-serif !important;
+}
+
+.weebly-feature p {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.weebly-plans-pricing th span.weebly-plan-name {
+	font: 900 22px/24px 'Roboto Slab', serif !important;
+}
+
+.weebly-plan-price .symbol {
+	font: 900 16px/21px 'Roboto Slab', serif !important;
+}
+
+.weebly-plan-price .value {
+	font: 900 24px/21px 'Roboto Slab', serif !important;
+}
+
+.weebly-plan-price .duration {
+	font: 900 16px/21px 'Roboto Slab', serif !important;
+}
+
+.weebly-plans-pricing td {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.weebly-plans-pricing .plan-feature-title td.first-child {
+	font: 700 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.weebly-plans-pricing td input[type="button"] {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	font: 400 16px/38px 'Cuprum', sans-serif !important;
+	height: 42px !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+}
+
+.weebly-plans-pricing td input[type="button"]:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+.weebly-testimonial-content p {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.weebly-testimonial-content em {
+	font: 700 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.weebly-faqs-content div.questionr {
+	font: 700 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.weebly-faqs-content div.answer {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
+}
+
 /* Page / Hosting */
+
+.switch-nav .tab-wrp div a {
+	font: 900 22px/22px 'Roboto Slab', serif !important;
+}
+
+.bullet-list li {
+	font: normal 14px/20px 'Cuprum', sans-serif !important;
+}
+
+li.p-feat {
+	font: normal 15px 'Cuprum', sans-serif !important;
+}
 
 .sh-hosting-banner h1 {
 	font-family: 'Roboto Slab', serif !important;
 }
 
 .addon-txt {
-	font-family: Cuprum, sans-serif !important;
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 .sh-hosting-banner-content p {
@@ -1102,8 +1221,8 @@ span.cloud-plan-price,
 }
 
 .cloud-plan .green-button-style:hover {
-	background: #6dcf54 !important;
-	border: 1px solid #6dcf54 !important;
+	background: #61b64b !important;
+	border: 1px solid #61b64b !important;
 }
 
 .chfaqrow .chfaqhead {
@@ -1121,7 +1240,6 @@ span.cloud-plan-price,
 #ee-lite-wrapper h1,
 #ee-lite-wrapper h2,
 #ee-lite-wrapper h3,
-#ee-lite-wrapper h4,
 #ee-lite-wrapper span {
 	font-family: 'Roboto Slab', serif !important;
 }
@@ -1160,6 +1278,101 @@ span.cloud-plan-price,
 	font: 400 16px/22px 'Cuprum', sans-serif !important;
 }
 
+.ee-lite-submit-wrapper #purchase_button {
+	margin: 35px 0 0 45px !important;
+	padding: 0 10px !important;
+	line-height: 40px !important;
+}
+
+#ee-lite-wrapper h1,
+#ee-lite-wrapper h2,
+#ee-lite-wrapper h3,
+#ee-lite-wrapper h4,
+#ee-lite-wrapper p,
+#ee-lite-wrapper a,
+#ee-lite-wrapper label,
+#ee-lite-wrapper input,
+#ee-lite-wrapper select,
+#ee-lite-wrapper select option,
+#ee-lite-wrapper span,
+.ee-lite-submit-wrapper input,
+ee-lite-wrapper li,
+#ee-lite-wrapper span.currency_symbol {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+#ee-lite-wrapper span.currency_symbol {
+	font-weight: 400 !important;
+}
+
+/* Page / Enterprise Email */
+
+.eemail-banner p {
+	text-align: center;
+	font: 400 24px/32px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner p span.starts-at {
+	font: 400 18px/30px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner p span.cur_symbol {
+	font: 400 18px/26px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner p span.cur_value {
+	font: 400 30px/26px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner p span.cur_validity {
+	font: 400 18px/26px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner button.buy-acs,
+.eemail-banner a.try-demo {
+	border: 1px solid #6dcf54 !important;
+	background: #6dcf54 !important;
+	font: 700 18px/20px 'Cuprum', sans-serif !important;
+}
+
+.eemail-banner button.buy-acs:hover,
+.eemail-banner a.try-demo:hover {
+	border-color: #6dcf54 !important;
+	background: #61b64b !important;
+}
+
+.eemail-banner a.try-demo {
+	background: transparent !important;
+	border: 1px solid #222 !important;
+	color: #222 !important;
+}
+
+.eemail-banner a.try-demo:hover {
+	background: #222 !important;
+	color: #fff !important;
+}
+
+.lhs .eemail-feature h3 {
+	font: 700 24px/28px 'Cuprum', sans-serif !important;
+}
+
+.lhs .eemail-feature p {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.enterprice_email_plans .ee-plans p.labels,
+.enterprice_email_plans .subtotal .total-heading {
+	font: 400 18px/26px 'Cuprum', sans-serif !important;
+}
+
+.enterprice_email_plans .ee-plans p.spec {
+	font: 400 13px/18px 'Cuprum', sans-serif !important;
+}
+
+.buy-button-wrapper p {
+	font: 400 14px/18px 'Cuprum', sans-serif !important;
+}
+
 /* Page / Security */
 
 .sslc-banner h2 {
@@ -1187,8 +1400,89 @@ span.cloud-plan-price,
 }
 
 .sc-plans h2,
-#upsell_modal .sc-plans h2 {
+#upsell_modal .sc-plans h2,
+.sc-plans .price,
+.feq-wrp .ssl-tabs a  {
 	font: 900 20px 'Roboto Slab', serif !important;
+}
+
+.sc-plans .feature li,
+.sc-plans .plan-duration {
+	font: 400 16px 'Cuprum', sans-serif !important;
+}
+
+.feq-wrp .ssl-tabs a {
+	padding: 10px 25px !important;
+	top: -2px !important;
+}
+
+.feq-wrp .que {
+	font: 700 16px 'Cuprum', sans-serif !important;
+}
+
+.feq-wrp .ans {
+	font: 400 16px 'Cuprum', sans-serif !important;
+}
+
+#select-domain-modal .continue-button-container input#continue_action {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	font-family: 'Cuprum', sans-serif !important;
+	font-weight: 700 !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+	font-size: 20px !important;
+}
+
+#select-domain-modal .continue-button-container input#continue_action:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+/* Page / Bundles / Combo Offers */
+
+.bundles-plans .bundles-plan-heading h2,
+.bundles-plans .bundles-step-one h2,
+.bundles-plans .bundles-step-two h2,
+.bundles-plans .bundles-step-three h2,
+.bundles-plans .bundles-step-four h2,
+.bundles-page-note {
+	color: #405f77 !important;
+}
+
+.bundles-page-note {
+	margin: 25px 0 !important;
+}
+
+.bundles-plans .bundles-blocks h3,
+.bundles-dsearch-result h3 {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 18px !important;
+	font-weight: 700 !important;
+}
+
+.bundles-green-button {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	font-family: 'Cuprum', sans-serif !important;
+	font-weight: 700;
+	padding: 10px 35px;
+	box-shadow: none !important;
+}
+
+.bundles-green-button:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+.bundles-blocks.col2 ul li,
+.bundles-blocks.col3 ul li {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.bundles-page-note {
+	font-size: 14px !important;
+	font-weight: 400 !important;
 }
 
 /* Modals */
@@ -1229,7 +1523,8 @@ span.cloud-plan-price,
 	box-shadow: none !important;
 }
 
-.green-submit-button:hover {
+.green-submit-button:hover,
+.ui-button2:hover {
 	background: #7dde64 !important;
 	border: 1px solid #7dde64 !important;
 }
@@ -1256,13 +1551,15 @@ span.cloud-plan-price,
 #register_submit_id.disabled-uiButton,
 #sub_button.disabled-uiButton,
 .contact-support-container #contact-form input[type="submit"]#contact_submit.disabled-uiButton,
-#report-spam.disabled-uiButton, #report-false-whois.disabled-uiButton,
+#report-spam.disabled-uiButton,
+#report-false-whois.disabled-uiButton,
 #contact_submit.disabled-uiButton,
 .txt-button,
 .uiButton,
 .ui-button,
 .frmButton {
-	padding: 10px 20px !important;
+	padding: 0 20px !important;
+	line-height: 40px !important;
 	font: bold 18px/18px 'Cuprum', sans-serif !important;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1) !important;
 	background-color: #4d84d7 !important;
@@ -1270,7 +1567,6 @@ span.cloud-plan-price,
 	border: 1px solid #4d84d7 !important;
 	border-radius: 4px !important;
 	box-shadow: none !important;
-	transition: al 0.33s !important;
 }
 
 #register_submit_id.disabled-uiButton, #sub_button.disabled-uiButton,
@@ -1485,4 +1781,4 @@ span.cloud-plan-price,
 	}
 }
 
-/* 2021-06-04 16:39:16 */
+/* 2021-06-04 19:40:26 */
