@@ -170,6 +170,17 @@ h2,
 	color: #405f77 !important;
 }
 
+.new-header-style .top-header .top-nav li a,
+.new-header-style .top-header .top-nav li span,
+.new-header-style .top-header .top-nav li ul#change_language_header li,
+.new-header-style .top-header .top-nav li ul#currency_change li,
+.new-header-style .currency-opt .user-dd .note-cur,
+.new-header-style .dashboard-option-label {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
 .new-header-style .top-header .top-nav .user-opt {
 	text-align: left !important;
 	max-width: 154px !important;
@@ -270,7 +281,8 @@ h2,
 }
 
 #page-header h1#branding .logo-support-box p {
-	font-style: italic;
+	font-style: italic !important;
+	font-size: 13px !important;
 	color: #718ea5 !important;
 }
 
@@ -1201,10 +1213,11 @@ li.p-feat {
 	font-size: 16px !important;
 }
 
-/* Page Cloud */
+/* Page / Cloud */
 
 .cloud-features-wrapper h2 span.heading-text,
-.cloud-plans-container h2 span.heading-text {
+.cloud-plans-container h2 span.heading-text,
+.cloud-features-wrapper h3 {
 	font-family: 'Roboto Slab', serif !important;
 	font-weight: 700 !important;
 }
@@ -1213,8 +1226,7 @@ li.p-feat {
 	font-family: 'Merienda', cursive !important;
 }
 
-.cloud-features-wrapper h3,
-.cloud-features-wrapper p {
+.cloud-features-wrapper .cloud-feature-container p {
 	font-family: 'Cuprum' !important;
 }
 
@@ -1922,4 +1934,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 21:07:50 */
+/* 2021-06-04 21:15:23 */
