@@ -775,7 +775,33 @@ table.dataTable td {
 	font-size: 15px !important;
 }
 
+.placeholder-txt2 {
+	font-size: 14px !important;
+}
+
+.bdr-tarea {
+	width: auto !important;
+	min-width: 580px !important;
+	min-height: 194px !important;
+}
+
+.bulk-note-right {
+	background: #f2f2f2 !important;
+	border-radius: 5px !important;
+}
+
+.note-wrp {
+	background: #fff4ed !important;
+	border: 2px solid #ffba87 !important;
+	font: normal 14px 'Cuprum', sans-serif !important;
+}
+
 /* User Registration */
+
+.note2 {
+	border: 1px solid #ffe4b0 !important;
+	background: #fffdd7 !important;
+}
 
 #signup label[for="tnc_agree"] {
 	vertical-align: middle !important;
@@ -785,11 +811,11 @@ table.dataTable td {
 	padding-top: 0 !important;
 }
 
-.termnconditions,
-.terms-n-conditions,
-.termnconditions a,
-.terms-n-conditions a,
-label[for="tnc_agree"] {
+#signup .termnconditions,
+#signup .terms-n-conditions,
+#signup .termnconditions a,
+#signup .terms-n-conditions a,
+#signup label[for="tnc_agree"] {
 	font-size: 14px !important;
 }
 
@@ -1890,4 +1916,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 20:45:58 */
+/* 2021-06-04 21:03:13 */
