@@ -1335,6 +1335,12 @@ ee-lite-wrapper li,
 	font-weight: 400 !important;
 }
 
+.enterprise-email-new-wrapper .subtotal .ui-button#purchase_button,
+.enterprise-email-new-wrapper .subtotal .frmButton-disable#purchase_button {
+	height: 40px !important;
+	line-height: 40px !important;
+}
+
 /* Page / Enterprise Email */
 
 .eemail-banner p {
@@ -1916,4 +1922,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 21:03:13 */
+/* 2021-06-04 21:07:50 */
