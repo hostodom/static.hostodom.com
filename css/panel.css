@@ -304,16 +304,8 @@ body table#control-panel-menu {
 	background: none !important;
 }
 
-#control-panel-menu .mmenu #menu1,
-#control-panel-menu .mmenu #menu2,
-#control-panel-menu .mmenu #menu3,
-#control-panel-menu .mmenu #menu4,
-#control-panel-menu .mmenu #menu5,
-#control-panel-menu .mmenu #menu6,
-#control-panel-menu .mmenu #menu7,
-#control-panel-menu .mmenu #menu9 {
-	background: #405f77 !important;
-	border-color: #496982 !important;
+#control-panel-menu .mmenu a {
+	background: #fff !important;
 }
 
 #menu0 * {
@@ -336,6 +328,7 @@ body table#control-panel-menu {
 	font-weight: 900 !important;
 	color: #405f77 !important;
 	text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5) !important;
+	letter-spacing: 0.025rem !important;
 }
 
 .widget.dashboard {
@@ -357,9 +350,13 @@ body table#control-panel-menu {
 	font-size: 15px !important;
 }
 
+.dashboard .widget-content li a {
+	text-decoration: none !important;
+}
+
 .dashboard .widget-content li a:hover {
 	color: #6dcf54 !important;
-	text-decoration: none !important;
+	text-decoration: underline !important;
 }
 
 .ui-bullet {
@@ -960,4 +957,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-04 21:07:32 */
+/* 2021-06-04 21:49:40 */
