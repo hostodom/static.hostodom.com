@@ -1328,6 +1328,10 @@ ee-lite-wrapper li,
 	font: 400 18px/26px 'Cuprum', sans-serif !important;
 }
 
+.eemail-banner {
+	min-height: 730px !important;
+}
+
 .eemail-banner button.buy-acs,
 .eemail-banner a.try-demo {
 	border: 1px solid #6dcf54 !important;
@@ -1335,8 +1339,7 @@ ee-lite-wrapper li,
 	font: 700 18px/20px 'Cuprum', sans-serif !important;
 }
 
-.eemail-banner button.buy-acs:hover,
-.eemail-banner a.try-demo:hover {
+.eemail-banner button.buy-acs:hover {
 	border-color: #6dcf54 !important;
 	background: #61b64b !important;
 }
@@ -1485,6 +1488,69 @@ ee-lite-wrapper li,
 	font-weight: 400 !important;
 }
 
+/* Page / Contact us */
+
+.contact-support-banner-content h1 {
+	font: 900 36px 'Roboto Slab', serif !important;
+	text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.33) !important;
+}
+
+.contact-support-banner-content p {
+	font: 400 22px 'Cuprum', sans-serif !important;
+}
+
+.contact-support-form h3 {
+	font: 900 20px 'Roboto Slab', serif !important;
+}
+
+.contact-support-container p {
+	font: 400 16px 'Cuprum', sans-serif !important;
+}
+
+.frm-label-checkbox {
+	font: 400 16px/26px 'Cuprum', sans-serif !important;
+}
+
+.contact-support-container .rfloat .support-info td {
+	overflow: hidden !important;
+}
+
+.kb-support p {
+	font: 400 16px 'Cuprum', sans-serif !important;
+}
+
+.contact-support-container #contact-form input[type="submit"],
+.kb-support a {
+	background: #4d84d7 !important;
+	border: 1px solid #4d84d7 !important;
+	font: 400 16px 'Cuprum', sans-serif !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+}
+
+
+.contact-support-container #contact-form input[type="submit"]:hover,
+.kb-support a:hover {
+	background: #4171b8 !important;
+	border-color: #4171b8 !important;
+}
+
+.complaint-support .com-links-wrapper .complaints h3 {
+	font: 700 16px 'Cuprum', sans-serif !important;
+}
+
+.complaint-support .com-links-wrapper .complaints p {
+	font: 400 15px 'Cuprum', sans-serif !important;
+}
+
+.complaint-support .com-links-wrapper .complaints p a {
+	color: #4d84d7 !important;
+}
+
+.complaint-support .com-links-wrapper .complaints p a:hover {
+	color: #4171b8 !important;
+}
+
 /* Modals */
 
 #processing_div.modal-wrapper .modal_content img {
@@ -1569,11 +1635,13 @@ ee-lite-wrapper li,
 	box-shadow: none !important;
 }
 
-#register_submit_id.disabled-uiButton, #sub_button.disabled-uiButton,
+#register_submit_id.disabled-uiButton,
+#sub_button.disabled-uiButton,
 .contact-support-container #contact-form input[type="submit"]#contact_submit.disabled-uiButton,
 #report-spam.disabled-uiButton,
 #report-false-whois.disabled-uiButton,
 #contact_submit.disabled-uiButton {
+	background-color: #7cacf4 !important;
 	color: #f1f1f1 !important;
 }
 
@@ -1781,4 +1849,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 19:40:26 */
+/* 2021-06-04 20:27:51 */
