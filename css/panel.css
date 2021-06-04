@@ -273,22 +273,22 @@ body table#control-panel-menu {
 	display: inline-block;
 	vertical-align: middle;
 	width: 24px;
-	height: 24px;
+	height: 42px;
 }
 
-.quirk-mode .header-support-box i:before {
+.quirk-mode .header-support-box i::before {
 	margin-top: 9px !important;
 }
 
-.header-support-box i.icon-globe:before {
+.header-support-box i.icon-globe::before {
 	background: url('https://static.hostodom.com/img/panel/icon-globe.svg') no-repeat center center;
 }
 
-.header-support-box i.icon-server:before {
+.header-support-box i.icon-server::before {
 	background: url('https://static.hostodom.com/img/panel/icon-server.svg') no-repeat center center;
 }
 
-.header-support-box i.icon-support:before {
+.header-support-box i.icon-support::before {
 	background: url('https://static.hostodom.com/img/panel/icon-help.svg') no-repeat center center;
 }
 
@@ -601,13 +601,21 @@ body table#control-panel-menu {
 }
 
 .forgot-container #ForgotPassword .fieldset-wrapper .input {
-	padding: 10px !important;
+	padding: 5px 10px !important;
 	width: 93% !important;
+	border-radius: 5px !important;
 }
 
 .forgot-container #ForgotPassword .submit-button {
-	padding: 10px !important;
+	padding: 12px !important;
 	width: 100% !important;
+	font-size: 16px !important;
+	letter-spacing: 0.05rem !important;
+}
+
+.inline-error {
+	font-size: 12px !important;
+	margin-top: 10px !important;
 }
 
 .logoutTable {
@@ -831,6 +839,42 @@ select {
 	margin-bottom: 15px !important;
 }
 
+/* Knowledgebase */
+
+#block-kbmenublock ul li a {
+	font-family: 'Cuprum', sans-serif !important;
+	font-weight: 700 !important;
+	font-size: 15px !important;
+	color: #405f77 !important;
+}
+
+.title.page-title span,
+.page-title,
+.kb-article-title {
+	color: #405f77 !important;
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 30px !important;
+	line-height: 38px !important;
+	font-weight: 400 !important;
+}
+
+.node__content strong {
+	font-family: 'Cuprum', sans-serif !important;
+	font-weight: 700 !important;
+}
+
+#block-kbmenublock .menu .secondlevel li a,
+#block-kbmenublock .menu .thirdlevel li a,
+#block-kbmenublock .menu .fourthlevel li a {
+	color: #4d84d7 !important;
+}
+
+#block-kbmenublock .menu .secondlevel li a:hover,
+#block-kbmenublock .menu .thirdlevel li a:hover,
+#block-kbmenublock .menu .fourthlevel li a:hover {
+	text-decoration: underline !important;
+}
+
 /* Footer */
 
 #footer-wrapper {
@@ -886,4 +930,4 @@ select {
 	}
 }
 
-/* 2021-06-03 18:43:34 */
+/* 	 */
