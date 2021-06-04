@@ -1,6 +1,7 @@
 /*** Hostodom.com Theme ***/
 
 body {
+	font: normal 14px 'Cuprum', sans-serif;
 	color: #222a30 !important;
 }
 
@@ -66,6 +67,8 @@ table.dataTable td,
 	font-family: 'Cuprum', sans-serif !important;
 }
 
+h1,
+h2,
 .homepage-banner h1,
 .homepage-content h1,
 .hosting-homepage-banner-content h1,
@@ -752,6 +755,16 @@ table.dataTable td {
 	color: #405f77 !important;
 }
 
+/* User Registration */
+
+#signup label[for="tnc_agree"] {
+	vertical-align: bottom !important;
+}
+
+label[for="tnc_agree"] {
+	font-size: 14px !important;
+}
+
 /* Page / Hosting */
 
 .sh-hosting-banner {
@@ -774,6 +787,11 @@ table.dataTable td {
 }
 
 /* Page / Login */
+
+.loginform label {
+	font-size: 16px !important;
+	color: #405f77 !important;
+}
 
 .loginform label,
 #rememberme {
@@ -810,6 +828,369 @@ table.dataTable td {
 	padding: 10px !important;
 }
 
+.loginform input[type="text"],
+.loginform input[type="password"],
+.loginform select {
+	border: 1px solid #405f77 !important;
+	height: 30px !important;
+	line-height: 30px !important;
+}
+
+/* Page / Domain Pricing */
+
+.dpricing-table th {
+	font: bold 18px 'Cuprum', sans-serif !important; 
+}
+
+.dpricing-table .heading .first {
+	background: #405f77 !important;
+}
+
+.dpricing-table .heading .second {
+	background: url(https://static.hostodom.com/img/www/dprice-he-bg.png) no-repeat 0 0 a9d4f5 !important;
+}
+
+.dpricing-table .title {
+	font: bold 16px 'Roboto Slab', serif !important;
+	color: #405f77 !important;
+}
+.dpricing-table td {
+	border-bottom: 1px solid #a9d4f5 !important;
+	border-right: 1px solid #a9d4f5 !important;
+}
+
+.dpricing-table .even {
+	background: #e1f2ff !important;
+}
+
+.row-hover tr:hover {
+	background: #afd1ec !important;
+}
+
+#restoration_info {
+	font-size: 14px !important;
+}
+
+.domain-submit,
+.domain-submit-disabled {
+	box-shadow: inset 0px 1px 0px 0px #6fd156 !important;
+	background-color: #6fd156 !important;
+	background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #6fd156), color-stop(1, #62bd4b) ) !important;
+}
+
+/* Page / Transfer Domain */
+
+.feature-blurb .list-info,
+.txt-m {
+	font: normal 15px/21px 'Cuprum', sans-serif !important;
+}
+
+.frm-label {
+	font: normal 18px 'Cuprum', sans-serif !important;
+	color: #405f77 !important;
+}
+
+.info-small {
+	font: normal 12px 'Cuprum', sans-serif !important;
+	color: #555 !important;
+}
+
+/* Page / Websites */
+
+#plans-masthead li {
+	font: normal 16px 'Cuprum', sans-serif !important;
+}
+
+li.p-feat {
+	font: normal 15px 'Cuprum', sans-serif !important;
+}
+
+.features-wrp .faq {
+	box-shadow: 0 0 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.features-wrp h3 {
+	font: normal 18px 'Roboto Slab', serif !important;
+	color: #405f77 !important;
+}
+
+.features li {
+	font: normal 16px 'Cuprum', sans-serif !important;
+}
+
+.features-wrp h4 {
+	font: normal 18px 'Roboto Slab', serif !important;
+	color: #405f77 !important;
+	margin-bottom: 1rem !important;
+}
+
+.fea-list li {
+	font: normal 15px 'Cuprum', sans-serif !important;
+}
+
+.faqs-wrp .que {
+	font: normal 18px 'Cuprum', sans-serif !important;
+	color: #5ab54b !important;
+}
+
+.faqs-wrp .ans {
+	font: normal 16px/24px 'Cuprum', sans-serif !important;
+}
+
+/* Page / Hosting */
+
+.sh-hosting-banner h1 {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.addon-txt {
+	font-family: Cuprum, sans-serif !important;
+}
+
+.sh-hosting-banner-content p {
+	margin: 10px 0 0 0 !important;
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 22px !important;
+}
+
+.sh-pricing-data-content span,
+.sh-pricing-data-content span.value {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.sh-pricing-data-content .view-plans {
+	font-family: 'Cuprum', sans-serif !important;
+	font-weight: 700 !important;
+}
+
+.sh-hosting-features-content h2,
+.sh-hosting-incudes-content h2,
+.sh-hosting-includes h2,
+.sh-hosting-faqs h2,
+.sh-hosting-wrapper h2.hosting-select,
+.sh-hosting-wrapper h2.hosting-select em {
+	font-family: 'Merienda', cursive !important;
+}
+
+.sh-hosting-features-content ul li h3,
+.sh-hosting-features-content ul li p,
+.sh-hosting-includes-content ul li {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.sh-hosting-features-content ul li h3 {
+	font-weight: 700 !important;
+}
+
+.sh-hosting-meta-content p {
+	margin-bottom: 1.5rem !important;
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 700 !important;
+}
+
+.sh-hosting-meta-content .sub-text {
+	margin: 10px 0 30px 0 !important;
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.sh-hosting-wrapper .server_loc_tabs li {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 700 !important;
+}
+
+.plan-list {
+	min-width: 242px !important;
+}
+
+.plan-desc-list {
+	display: block !important;
+	margin-bottom: 0.5rem !important;
+	font: normal 18px 'Cuprum', sans-serif !important;
+}
+
+.sh-hosting-wrapper .p-name {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 700 !important;
+}
+
+.sh-hosting-wrapper .p-pricing {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.sh-hosting-wrapper .p-feat,
+.sh-hosting-wrapper .p-feat strong,
+.plan-desc-list span {
+	font-family: 'Cuprum' !important;
+	font-size: 16px !important;
+	font-weight: 400 !important;
+}
+
+.money-back-note {
+	margin: 40px auto 0 auto !important;
+}
+
+.money-back-note p {
+	font-family: 'Cuprum' !important;
+}
+
+.sh-hosting-includes-content h3 {
+	font-family: 'Roboto Slab', serif !important;
+	font-size: 20px !important;
+	font-weight: 700 !important;
+}
+
+.sh-hosting-includes-content ul li span {
+	font-family: 'Cuprum' !important;
+}
+
+.sh-hosting-faqs-content h4,
+.sh-hosting-faqs-content p {
+	font-family: 'Cuprum' !important;
+}
+
+.sh-hosting-faqs-content h4 {
+	font-size: 16px !important;
+}
+
+/* Page Cloud */
+
+.cloud-features-wrapper h2 span.heading-text,
+.cloud-plans-container h2 span.heading-text {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 700 !important;
+}
+
+.chsubstitle {
+	font-family: 'Merienda', cursive !important;
+}
+
+.cloud-features-wrapper h3,
+.cloud-features-wrapper p {
+	font-family: 'Cuprum' !important;
+}
+
+.cloud-plans-container .server_loc_tabs li {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.ssd-top-badge {
+	font: 700 18px/37px 'Cuprum', sans-serif !important;
+	letter-spacing: 0.1rem;
+}
+
+span.cloud-plan-name,
+span.cloud-plan-price,
+.cloud-plan span.price-sym,
+.cloud-plan span.plan-valid {
+	font-family: 'Roboto Slab', serif !important;
+	border: none !important;
+}
+
+.cloud-plan ul li {
+	font-family: 'Cuprum' !important;
+	font-size: 16px !important;
+}
+
+.cloud-plan .green-button-style {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	box-shadow: none !important;
+	font-family: 'Cuprum' !important;
+	font-size: 18px !important;
+	font-weight: 700 !important;
+	color: #fff !important;
+}
+
+.cloud-plan .green-button-style:hover {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+}
+
+.chfaqrow .chfaqhead {
+	font-family: 'Cuprum' !important;
+	font-size: 18px !important;
+}
+
+.chfaqrow .chfaqdesc {
+	font-family: 'Cuprum' !important;
+	font-weight: 400 !important;
+}
+
+/* Page / Email & Productivity */
+
+#ee-lite-wrapper h1,
+#ee-lite-wrapper h2,
+#ee-lite-wrapper h3,
+#ee-lite-wrapper h4,
+#ee-lite-wrapper span {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+#ee-lite-wrapper h1 {
+	text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5) !important;
+	margin-bottom: 1rem !important;
+}
+
+#ee-lite-wrapper h1 + p {
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.33) !important;
+	font-family: 'Cuprum' !important;
+	font-size: 22px !important;
+}
+
+.ee-lite-features ul li h3 {
+	font-weight: 700 !important;
+}
+
+.ee-lite-features ul li p {
+	font-family: 'Cuprum' !important;
+}
+
+.ee-lite-plans h2,
+.ee-lite-features h2,
+.ee-lite-faqs h2 {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 900 !important;
+}
+
+.ee-lite-faqs .faqs-wrp .que {
+	font: 700 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.ee-lite-faqs .faqs-wrp .ans {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+/* Page / Security */
+
+.sslc-banner h2 {
+	font: 900 46px/46px 'Roboto Slab', serif !important;
+}
+
+.sslc-banner p {
+	font: 400 22px/28px 'Cuprum', sans-serif !important;
+}
+
+.sslc-price-row h3 {
+	font: 900 32px 'Roboto Slab', serif !important;
+}
+
+.title2 {
+	font: 900 28px 'Roboto Slab', serif !important;
+}
+
+.features-block h4 {
+	font: 900 22px 'Roboto Slab', serif !important;
+}
+
+.features-block p {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.sc-plans h2,
+#upsell_modal .sc-plans h2 {
+	font: 900 20px 'Roboto Slab', serif !important;
+}
+
 /* Modals */
 
 #processing_div.modal-wrapper .modal_content img {
@@ -832,6 +1213,14 @@ table.dataTable td {
 .green-submit-button,
 .buy-bundles-plans {
 	transition: all 0.5s !important;
+}
+
+.ui-button2 {
+	box-shadow: none !important;
+	border-radius: 5px !important;
+	border: solid 1px #6dcf54 !important;
+	background: #6dcf54 !important;
+	font: 400 18px 'Cuprum', sans-serif !important;
 }
 
 .green-submit-button {
@@ -864,6 +1253,11 @@ table.dataTable td {
 	background: #7dde64 !important;
 }
 
+#register_submit_id.disabled-uiButton,
+#sub_button.disabled-uiButton,
+.contact-support-container #contact-form input[type="submit"]#contact_submit.disabled-uiButton,
+#report-spam.disabled-uiButton, #report-false-whois.disabled-uiButton,
+#contact_submit.disabled-uiButton,
 .txt-button,
 .uiButton,
 .ui-button,
@@ -877,6 +1271,14 @@ table.dataTable td {
 	border-radius: 4px !important;
 	box-shadow: none !important;
 	transition: al 0.33s !important;
+}
+
+#register_submit_id.disabled-uiButton, #sub_button.disabled-uiButton,
+.contact-support-container #contact-form input[type="submit"]#contact_submit.disabled-uiButton,
+#report-spam.disabled-uiButton,
+#report-false-whois.disabled-uiButton,
+#contact_submit.disabled-uiButton {
+	color: #f1f1f1 !important;
 }
 
 .txt-button:hover,
@@ -1038,6 +1440,12 @@ table.dataTable td {
 	opacity: 0.75;
 }
 
+/* reCaptcha */
+
+.g-recaptcha {
+	margin-bottom: 1.75rem !important;
+}
+
 /* Cookie Notice */
 
 .cc-banner.cc-bottom {
@@ -1077,4 +1485,4 @@ table.dataTable td {
 	}
 }
 
-/* 2021-06-03 17:19:14 */
+/* 2021-06-04 16:39:16 */
