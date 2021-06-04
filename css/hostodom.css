@@ -129,10 +129,11 @@ h2,
 
 /* Forms */
 
-.frm-field, .frm-select {
-	padding: 3px 12px !important;
+.frm-field,
+.frm-select {
+	padding: 7px 12px !important;
 	font-family: 'Cuprum', sans-serif !important;
-	line-height: 30px !important;
+	line-height: normal !important;
 }
 
 .frm-field:focus,
@@ -976,6 +977,7 @@ li.p-feat {
 	font: 700 20px/48px 'Cuprum', sans-serif !important;
 	border-radius: 5px !important;
 	box-shadow: none !important;
+	cursor: pointer !important;
 }
 
 .weebly-gallery-content button:hover {
@@ -1022,6 +1024,7 @@ li.p-feat {
 	height: 42px !important;
 	border-radius: 5px !important;
 	box-shadow: none !important;
+	cursor: pointer !important;
 }
 
 .weebly-plans-pricing td input[type="button"]:hover {
@@ -1037,7 +1040,7 @@ li.p-feat {
 	font: 700 16px/21px 'Cuprum', sans-serif !important;
 }
 
-.weebly-faqs-content div.questionr {
+.weebly-faqs-content div.question {
 	font: 700 16px/21px 'Cuprum', sans-serif !important;
 }
 
@@ -1403,6 +1406,11 @@ ee-lite-wrapper li,
 	font: 400 16px/22px 'Cuprum', sans-serif !important;
 }
 
+.feq-wrp .ssl-tabs {
+	width: auto !important;
+	min-width: 328px !important;
+}
+
 .sc-plans h2,
 #upsell_modal .sc-plans h2,
 .sc-plans .price,
@@ -1421,7 +1429,7 @@ ee-lite-wrapper li,
 }
 
 .feq-wrp .que {
-	font: 700 16px 'Cuprum', sans-serif !important;
+	font: 700 18px 'Cuprum', sans-serif !important;
 }
 
 .feq-wrp .ans {
@@ -1439,6 +1447,37 @@ ee-lite-wrapper li,
 }
 
 #select-domain-modal .continue-button-container input#continue_action:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+/* Page / Security / SiteLock */
+
+.sl-page-wrapper h2,
+.sl-page-wrapper h3,
+.sl-page-wrapper,
+.sl-page-wrapper span,
+.sl-page-wrapper em {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.sl-page-wrapper,
+.sl-page-wrapper p,
+.sl-page-wrapper ul li,
+.sl-page-wrapper td {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.sl-plans-pricing tr.sl-buy-buttons td .green-button {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	font-weight: 400 !important;
+	font-family: 'Cuprum', sans-serif !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+}
+
+.sl-plans-pricing tr.sl-buy-buttons td .green-button:hover {
 	background: #61b64b !important;
 	border-color: #61b64b !important;
 }
@@ -1851,4 +1890,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 20:27:51 */
+/* 2021-06-04 20:45:58 */
