@@ -903,7 +903,7 @@ table.dataTable td {
 }
 
 .dpricing-table .heading .second {
-	background: url(https://static.hostodom.com/img/www/dprice-he-bg.png) no-repeat 0 0 a9d4f5 !important;
+	background: url(https://static.hostodom.com/img/www/dprice-he-bg.png) no-repeat 0 0 #a9d4f5 !important;
 }
 
 .dpricing-table .title {
@@ -916,7 +916,7 @@ table.dataTable td {
 }
 
 .dpricing-table .even {
-	background: #e1f2ff !important;
+	background: #e5f4ff !important;
 }
 
 .row-hover tr:hover {
@@ -925,6 +925,11 @@ table.dataTable td {
 
 #restoration_info {
 	font-size: 14px !important;
+}
+
+.domains-input {
+	color: #777 !important;
+	font: normal 20px 'Cuprum', sans-serif !important;
 }
 
 .domain-submit,
@@ -1934,4 +1939,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 21:15:23 */
+/* 2021-06-04 21:36:50 */
