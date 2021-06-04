@@ -902,6 +902,10 @@ table.dataTable td {
 	background: #405f77 !important;
 }
 
+.dpricing-table .heading {
+	background: #a9d4f5 !important;
+}
+
 .dpricing-table .heading .second {
 	background: url(https://static.hostodom.com/img/www/dprice-he-bg.png) no-repeat 0 0 #a9d4f5 !important;
 }
@@ -1939,4 +1943,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 21:36:50 */
+/* 2021-06-04 21:44:06 */
