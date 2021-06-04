@@ -132,6 +132,7 @@ h2,
 .frm-field, .frm-select {
 	padding: 3px 12px !important;
 	font-family: 'Cuprum', sans-serif !important;
+	line-height: 30px !important;
 }
 
 .frm-field:focus,
@@ -1625,13 +1626,14 @@ ee-lite-wrapper li,
 .ui-button,
 .frmButton {
 	padding: 0 20px !important;
+	height: 42px !important;
 	line-height: 40px !important;
 	font: bold 18px/18px 'Cuprum', sans-serif !important;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1) !important;
 	background-color: #4d84d7 !important;
 	background-image: linear-gradient(to right,  #4d84d7 0%,#4d84d7 100%) !important;
 	border: 1px solid #4d84d7 !important;
-	border-radius: 4px !important;
+	border-radius: 5px !important;
 	box-shadow: none !important;
 }
 
@@ -1641,7 +1643,7 @@ ee-lite-wrapper li,
 #report-spam.disabled-uiButton,
 #report-false-whois.disabled-uiButton,
 #contact_submit.disabled-uiButton {
-	background-color: #7cacf4 !important;
+	background: #7cacf4 !important;
 	color: #f1f1f1 !important;
 }
 
