@@ -1322,9 +1322,9 @@ li.p-feat {
 
 .cloud-features-wrapper h2 span.heading-text,
 .cloud-plans-container h2 span.heading-text,
-.cloud-features-wrapper .cloud-features-wrapper h3 {
+.cloud-feature-content .cloud-features-wrapper h3 {
 	font-family: 'Roboto Slab', serif !important;
-	font-weight: 700 !important;
+	font-weight: 900 !important;
 }
 
 .chsubstitle {
@@ -1357,7 +1357,8 @@ span.cloud-plan-price,
 	font-size: 16px !important;
 }
 
-.cloud-plan .green-button-style {
+.cloud-plan .green-button-style,
+.green-button-style {
 	background: #6dcf54 !important;
 	border: 1px solid #6dcf54 !important;
 	box-shadow: none !important;
@@ -1367,7 +1368,8 @@ span.cloud-plan-price,
 	color: #fff !important;
 }
 
-.cloud-plan .green-button-style:hover {
+.cloud-plan .green-button-style:hover,
+.green-button-style:hover {
 	background: #61b64b !important;
 	border: 1px solid #61b64b !important;
 }
@@ -1387,9 +1389,14 @@ span.cloud-plan-price,
 #ee-lite-wrapper h1,
 #ee-lite-wrapper h2,
 #ee-lite-wrapper h3,
-#ee-lite-wrapper span {
+#ee-lite-wrapper span,
+.chhero .chcontent1,
+.chhero .chcontent2,
+.chhero .chcontent3 {
 	font-family: 'Roboto Slab', serif !important;
 }
+
+ 
 
 #ee-lite-wrapper h1 {
 	text-shadow: 2px 2px 0 rgba(255, 255, 255, 0.5) !important;
@@ -2168,4 +2175,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-05 20:03:57 */
+/* 2021-06-05 20:35:53 */
