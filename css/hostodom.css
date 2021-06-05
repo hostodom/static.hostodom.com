@@ -6,7 +6,7 @@ body {
 }
 
 p {
-	font: normal 15px/18px 'Cuprum', sans-serif !important;
+	font: normal 16px/1.5 'Cuprum', sans-serif !important
 }
 
 a:hover {
@@ -1222,6 +1222,102 @@ li.p-feat {
 	font-size: 16px !important;
 }
 
+/* Page / Hosting WordPress Hosting */
+
+.wp-host-banner-wrp p {
+	margin-top: 1rem !important;
+	font-size: 18px !important;
+}
+
+.wp-host-features-content .block .feature h3 {
+	font: 900 20px/26px 'Roboto Slab', serif !important;
+	margin-bottom: 0.75rem !important;
+}
+
+.wp-host-features-content p {
+	font-size: 16px !important;
+	line-height: 1.5 !important;
+}
+
+.lite-switch-labels, .nonlite-switch-labels {
+	font: 900 18px/26px 'Roboto Slab', serif !important;
+}
+
+.lite-switch-labels {
+	left: 68px !important;
+}
+
+.nonlite-switch-labels {
+	right: -68px !important;
+}
+
+.wp-host-plans-content .plan-name {
+	font: 900 21px 'Roboto Slab', serif !important;
+}
+
+.wp-host-plans-content ul li,
+.wp-host-plans-content ul li select {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.wp-host-plans-content ul li select {
+	border: 1px solid #ccc !important;
+	line-height: 20px !important;
+}
+
+.wp-host-plans-content ul li .green-button {
+	background: #6dcf54;
+	border: 1px solid #6dcf54;
+	box-shadow: none !important;
+	border-radius: 5px !important;
+	font: 400 18px/20px 'Cuprum', sans-serif !important;
+}
+
+.wp-host-plans-content ul li .green-button:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+.wp-host-aboutus-wrp p {
+	margin: 20px auto 25px auto !important;
+}
+
+.wp-host-aboutus-wrp ul li {
+	font: 400 16px/22px 'Cuprum', sans-serif !important;
+}
+
+.wp-host-features-content .block .feature h3 {
+	font: 900 20px/26px 'Roboto Slab', serif !important;
+}
+
+.wp-host-faqs-content div.question,
+.wp-host-faqs-content div.answer {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+/* Page / Hosting / Windows Dedicated Servers */
+
+.ui-subheading {
+	font: 900 32px 'Roboto Slab', serif !important;
+	margin-top: 1.5rem;
+}
+
+.vps-features {
+	margin: 10px auto 25px auto !important;
+}
+
+.txt-em {
+	font: 900 26px 'Roboto Slab', serif !important;
+}
+
+.dplan-list .plans .pricing {
+	font: 900 24px 'Roboto Slab', serif !important;
+}
+
+.dplan-list .plans li {
+	font: normal 15px 'Cuprum', sans-serif !important;
+}
+
 /* Page / Cloud */
 
 .cloud-features-wrapper h2 span.heading-text,
@@ -1236,7 +1332,7 @@ li.p-feat {
 }
 
 .cloud-features-wrapper .cloud-feature-container p {
-	font-family: 'Cuprum' !important;
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 .cloud-plans-container .server_loc_tabs li {
@@ -1506,18 +1602,26 @@ ee-lite-wrapper li,
 
 /* Page / Security / SiteLock */
 
-.sl-page-wrapper h2,
-.sl-page-wrapper h3,
-.sl-page-wrapper,
-.sl-page-wrapper span,
-.sl-page-wrapper em {
+#page-container .sl-page-wrapper h1,
+#page-container .sl-page-wrapper h2,
+#page-container .sl-page-wrapper h3,
+#page-container .sl-page-wrapper h4,
+#page-container .sl-page-wrapper span,
+#page-container .sl-page-wrapper em,
+#page-container .sl-head-meta .lfloat span,
+#page-container .sl-page-wrapper .inline-block,
+#page-container .sl-plans-pricing thead th span,
+#page-container .sl-plans-pricing thead th,
+#page-container .sl-testimonials h2 {
 	font-family: 'Roboto Slab', serif !important;
 }
 
-.sl-page-wrapper,
-.sl-page-wrapper p,
-.sl-page-wrapper ul li,
-.sl-page-wrapper td {
+#page-container .sl-page-wrapper,
+#page-container .sl-page-wrapper p,
+#page-container .sl-page-wrapper ul li,
+#page-container .sl-page-wrapper td,
+#page-container .sl-plans-pricing tbody td,
+#page-container .sl-testimonials ul li p span.testimonial-txt {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -1533,6 +1637,108 @@ ee-lite-wrapper li,
 .sl-plans-pricing tr.sl-buy-buttons td .green-button:hover {
 	background: #61b64b !important;
 	border-color: #61b64b !important;
+}
+
+/* Page / Security / Codeguard Website Backup */
+
+#cog-wrapper .cog-banner p {
+	margin-top: 1rem;
+	width: 100% !important;
+	max-width: 640px !important;
+	line-height: 1.6 !important;
+	font-size: 16px !important;
+}
+
+#cog-wrapper .cog-banner-links p {
+	font-size: 18px !important;
+}
+
+#cog-wrapper .cog-banner-links p span.green-text.currency-symbol {
+	margin: 0 0.25rem !important;
+	vertical-align: baseline !important;
+	font-size: 20px !important;
+}
+
+#cog-wrapper .cog-banner-links p span.green-text.starting-price {
+	font-size: 24px !important;
+	vertical-align: middle !important;
+}
+
+#cog-wrapper .cog-banner-links p span.green-text.starting-price,
+#cog-wrapper .cog-banner-links p span.green-text.time-period {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+#cog-wrapper .cog-banner-links .rfloat a.cog-link-2-plans {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	border-radius: 5px !important;
+	box-shadow: none !important;
+	font-weight: 400 !important;
+}
+
+#cog-wrapper .cog-banner-links .rfloat a.cog-link-2-plans:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+#cog-wrapper .cog-link-2-video {
+	border: 1px solid #eee !important;
+	color: #eee !important;
+}
+
+#cog-wrapper .cog-link-2-video {
+	border-color: #6dcf54 !important;
+	color: #6dcf54 !important;
+}
+
+#cog-wrapper .cog-features .cog-feature-details h3,
+#cog-wrapper .cog-how-it-works .cog-working-details h3 {
+	margin-bottom: 1rem !important;
+	font-family: 'Roboto Slab', serif !important;
+}
+
+#cog-wrapper .cog-features .cog-feature-details p,
+#cog-wrapper .cog-how-it-works .cog-working-details p {
+	font-size: 16px !important;
+}
+
+#cog-wrapper .cog-how-it-works p.cog-learnmore-working {
+	margin: 30px 0 0 0;
+}
+
+#cog-wrapper .cog-how-it-works p.cog-learnmore-working a,
+#cog-wrapper table tbody td {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+#cog-wrapper table thead th {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+table#cog-plans-pricing-table tr td select {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 17px !important;
+}
+
+table#cog-plans-pricing-table tr td button.cog-buybutton,
+.proceed-to-checkout {
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
+	border-radius: 5px !important;
+	font-weight: 400 !important;
+	box-shadow: none !important;
+}
+
+
+table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
+.proceed-to-checkout:hover {
+	background: #61b64b !important;
+	border-color: #61b64b !important;
+}
+
+#cog-wrapper .cog-testimonials ul li p span.testimonial-txt {
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 /* Page / Bundles / Combo Offers */
@@ -1719,8 +1925,7 @@ ee-lite-wrapper li,
 .frmButton {
 	padding: 0 20px !important;
 	height: 42px !important;
-	line-height: 40px !important;
-	font: bold 18px/18px 'Cuprum', sans-serif !important;
+	font: bold 18px/40px 'Cuprum', sans-serif !important;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1) !important;
 	background-color: #4d84d7 !important;
 	background-image: linear-gradient(to right,  #4d84d7 0%,#4d84d7 100%) !important;
@@ -1943,4 +2148,4 @@ ee-lite-wrapper li,
 	}
 }
 
-/* 2021-06-04 21:44:06 */
+/* 2021-06-05 19:50:00 */
