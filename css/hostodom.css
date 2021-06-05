@@ -1322,7 +1322,7 @@ li.p-feat {
 
 .cloud-features-wrapper h2 span.heading-text,
 .cloud-plans-container h2 span.heading-text,
-.cloud-features-wrapper h3 {
+.cloud-features-wrapper .cloud-features-wrapper h3 {
 	font-family: 'Roboto Slab', serif !important;
 	font-weight: 700 !important;
 }
@@ -1529,7 +1529,7 @@ ee-lite-wrapper li,
 	font: 400 14px/18px 'Cuprum', sans-serif !important;
 }
 
-/* Page / Security */
+/* Page / Security / SSL Certificates */
 
 .sslc-banner h2 {
 	font: 900 46px/46px 'Roboto Slab', serif !important;
@@ -1540,6 +1540,10 @@ ee-lite-wrapper li,
 }
 
 .sslc-price-row h3 {
+	font: 900 32px 'Roboto Slab', serif !important;
+}
+
+.sslc-price-row .price {
 	font: 900 32px 'Roboto Slab', serif !important;
 }
 
@@ -1558,6 +1562,12 @@ ee-lite-wrapper li,
 .feq-wrp .ssl-tabs {
 	width: auto !important;
 	min-width: 328px !important;
+}
+
+.feq-wrp .ssl-tabs li {
+	width: 320px !important;
+	margin: 0 auto !important;
+	pointer-events: none !important;
 }
 
 .sc-plans h2,
@@ -1661,12 +1671,17 @@ ee-lite-wrapper li,
 
 #cog-wrapper .cog-banner-links p span.green-text.starting-price {
 	font-size: 24px !important;
-	vertical-align: middle !important;
+	vertical-align: baseline !important;
 }
 
 #cog-wrapper .cog-banner-links p span.green-text.starting-price,
 #cog-wrapper .cog-banner-links p span.green-text.time-period {
 	font-family: 'Roboto Slab', serif !important;
+}
+
+#cog-wrapper .cog-how-it-works .cog-working-details .cog-working-steps {
+	background: #6dcf54 !important;
+	border-radius: 50% !important;
 }
 
 #cog-wrapper .cog-banner-links .rfloat a.cog-link-2-plans {
@@ -1687,7 +1702,7 @@ ee-lite-wrapper li,
 	color: #eee !important;
 }
 
-#cog-wrapper .cog-link-2-video {
+#cog-wrapper .cog-link-2-video:hover {
 	border-color: #6dcf54 !important;
 	color: #6dcf54 !important;
 }
@@ -1708,7 +1723,8 @@ ee-lite-wrapper li,
 }
 
 #cog-wrapper .cog-how-it-works p.cog-learnmore-working a,
-#cog-wrapper table tbody td {
+#cog-wrapper table tbody td,
+#cog-wrapper a {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -1739,6 +1755,10 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 
 #cog-wrapper .cog-testimonials ul li p span.testimonial-txt {
 	font-family: 'Cuprum', sans-serif !important;
+}
+
+#cog-wrapper .cog-testimonials ul li p.cog-comment-author {
+	font-weight: 700 !important;
 }
 
 /* Page / Bundles / Combo Offers */
@@ -2148,4 +2168,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-05 19:50:00 */
+/* 2021-06-05 20:03:57 */
