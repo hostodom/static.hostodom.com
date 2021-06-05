@@ -920,6 +920,7 @@ a.link:hover {
 
 .node__content strong {
 	font-family: 'Cuprum', sans-serif !important;
+	font-size: inherit !important;
 	font-weight: 700 !important;
 }
 
@@ -990,4 +991,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 18:42:07 */
+/* 2021-06-05 18:53:35 */
