@@ -253,6 +253,12 @@ h2,
 	width: auto !important;
 }
 
+@media only screen and (max-width: 768px), (min-width: 769px) and (max-width: 1000px) {
+	#branding .logo-cont img {
+		margin: 15px 0 20px 0 !important;
+	}
+}
+
 #page-header h1#branding .logo-cont {
 	width: 100% !important;
 	max-width: 1000px !important;
@@ -406,6 +412,22 @@ h2,
 }
 
 /* Homepage */
+
+@media screen and (min-width: 768px) and (max-width: 1000px) {
+	.bundles-hp-blurb {
+		top: 220px !important;
+	}
+	.bundles-hp-blurb h1 {
+		line-height: 42px !important;
+	}
+	.new-homepage-wrapper {
+		margin: 0 !important;
+		background-position: center 80px !important;
+	}
+	.homepage-content {
+		margin-top: 200px !important;
+	}
+}
 
 .bundles-hp-blurb h1 {
 	margin: 50px auto 30px auto !important;
@@ -2175,4 +2197,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-05 20:35:53 */
+/* 2021-06-05 21:24:34 */
