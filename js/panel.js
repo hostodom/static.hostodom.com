@@ -24,6 +24,15 @@ document.addEventListener("DOMContentLoaded", function() {
 	// Default login type set to customer
 	var login_role = document.getElementById('login-role');
 	login_role.options[0].selected = true;
+	// Header Logo URL
+	var pathname = window.location.pathname;
+	var header_url = '';
+	if (pathname.startsWith('/kb')) {
+		header_url = '/kb';
+	} else {
+		header_url = '/servlet/CustomerIndexServlet';
+	}
+	document.getElementById("header-link").href = header_url;
 });
 
-// 2021-06-03 18:57:03
+// 2021-06-05 17:36:55
