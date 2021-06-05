@@ -305,31 +305,19 @@ body table#control-panel-menu {
 }
 
 #control-panel-menu > tbody > tr > td > div {
-	border: 1px solid #517998 !important;
+	border: 1px solid #405f77 !important;
 }
 
 .mmenu > tbody > tr > td a:hover,
 #control-panel-menu > tbody > tr > td a:hover,
 #control-panel-menu > tbody > tr > td > div > table > tbody > tr > td a:hover {
-	background: #405f77 !important;
 	color: #fff !important;
-}
-
-#control-panel-menu > tbody > tr > td#sep0,
-#control-panel-menu > tbody > tr > td#sep1,
-#control-panel-menu > tbody > tr > td#sep2,
-#control-panel-menu > tbody > tr > td#sep3,
-#control-panel-menu > tbody > tr > td#sep4 {
-	background: #365165 !important;
 }
 
 #control-panel-menu .mmenu a,
-#control-panel-menu tbody tr td div a {
+#control-panel-menu tbody tr td div a,
+#control-panel-menu tbody tr td div a:hover {
 	color: #fff !important;
-}
-
-#control-panel-menu .mmenu a:hover {
-	text-decoration: underline !important;
 }
 
 #control-panel-menu tbody tr td div a {
@@ -991,4 +979,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 18:09:49 */
+/* 2021-06-05 18:33:17 */
