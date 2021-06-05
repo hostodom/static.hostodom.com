@@ -1,5 +1,11 @@
 //*** Hostodom Resellers
 
+// Add Panel CSS
+var linkPanelCss = document.createElement("link");
+linkPanelCss.rel = "stylesheet";
+linkPanelCss.href = "https://static.hostodom.com/css/resellers.css";
+document.head.appendChild(linkPanelCss);
+
 // jQuery Functions
 $(document).ready(function() {
 	$.fakeLoader({
