@@ -277,10 +277,6 @@ body table#control-panel-menu {
 	height: 42px;
 }
 
-.quirk-mode .header-support-box i::before {
-	margin-top: 9px !important;
-}
-
 .header-support-box i.icon-globe::before {
 	background: url('https://static.hostodom.com/img/panel/icon-globe.svg') no-repeat center center;
 }
@@ -315,7 +311,8 @@ body table#control-panel-menu {
 .mmenu > tbody > tr > td a:hover,
 #control-panel-menu > tbody > tr > td a:hover,
 #control-panel-menu > tbody > tr > td > div > table > tbody > tr > td a:hover {
-	background: #365165 !important;
+	background: #405f77 !important;
+	color: #fff !important;
 }
 
 #control-panel-menu > tbody > tr > td#sep0,
@@ -994,4 +991,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 17:47:47 */
+/* 2021-06-05 18:09:49 */
