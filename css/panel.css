@@ -300,21 +300,48 @@ body table#control-panel-menu {
 	max-height: 64px !important;
 }
 
-#control-panel-menu tbody tr td {
-	background: none !important;
+#control-panel-menu > tbody > tr > td {
+	background: #405f77 !important;
 }
 
-#control-panel-menu .mmenu a {
-	background: #fff !important;
+#control-panel-menu > tbody > tr > td:hover {
+	background: #365165 !important;
 }
 
-#menu0 * {
+#control-panel-menu > tbody > tr > td#sep0,
+#control-panel-menu > tbody > tr > td#sep1,
+#control-panel-menu > tbody > tr > td#sep2,
+#control-panel-menu > tbody > tr > td#sep3,
+#control-panel-menu > tbody > tr > td#sep4 {
+	background: #365165 !important;
+}
+
+#control-panel-menu .mmenu a,
+#control-panel-menu tbody tr td div a {
+	color: #fff !important;
+}
+
+#control-panel-menu .mmenu a:hover,
+#control-panel-menu tbody tr td div a:hover {
+	text-decoration: underline !important;
+}
+
+#control-panel-menu tbody tr td div a {
+	font-size: 15px !important;
+}
+
+.mmenu * {
 	font-size: 16px !important;
 	letter-spacing: 0.05rem !important;
 }
 
-#column_1, #column_2 {
+#column_1,
+#column_2 {
 	min-width: 320px !important;
+}
+
+#customercp-container table tbody tr td .widget-content form select {
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 .widget {
@@ -957,4 +984,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-04 21:49:40 */
+/* 2021-06-05 16:43:40 */
