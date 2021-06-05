@@ -314,6 +314,10 @@ body table#control-panel-menu {
 	color: #fff !important;
 }
 
+#control-panel-menu tbody tr td div a:hover {
+	text-decoration: underline !important;
+}
+
 #control-panel-menu .mmenu a,
 #control-panel-menu tbody tr td div a,
 #control-panel-menu tbody tr td div a:hover {
@@ -547,6 +551,13 @@ body table#control-panel-menu {
 .save-profile-info:hover,
 .save-profile-info-edit:hover {
 	opacity: 0.75 !important;
+}
+
+#contact-manager h1,
+#contact-manager span,
+#contact-manager a,
+#contact-manager strong {
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 /* Login page */
@@ -979,4 +990,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 18:33:17 */
+/* 2021-06-05 18:42:07 */
