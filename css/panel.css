@@ -21,6 +21,7 @@ select option,
 .login-page-body .login-submit,
 .logoutTable,
 .headerfont,
+.ob-v2-heading h2,
 .header-support-box h5,
 #page-container h3,
 .NormRow,
@@ -307,9 +308,13 @@ body table#control-panel-menu {
 	background: #405f77 !important;
 }
 
-.mmenu > tbody > tr > td:hover,
-#control-panel-menu > tbody > tr > td:hover,
-#control-panel-menu > tbody > tr > td > div > table > tbody > tr > td:hover {
+#control-panel-menu > tbody > tr > td > div {
+	border: 1px solid #517998 !important;
+}
+
+.mmenu > tbody > tr > td a:hover,
+#control-panel-menu > tbody > tr > td a:hover,
+#control-panel-menu > tbody > tr > td > div > table > tbody > tr > td a:hover {
 	background: #365165 !important;
 }
 
@@ -989,4 +994,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 17:37:24 */
+/* 2021-06-05 17:47:47 */
