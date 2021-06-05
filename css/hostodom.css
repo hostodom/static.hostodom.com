@@ -659,6 +659,15 @@ h2,
 	font-size: 18px !important;
 }
 
+/* Page / Cart */
+
+.Cart-Total,
+.ItemTotalAfterDiscount.Cart-Total td,
+.ItemTotalAfterDiscount #TotalAmount {
+	font-family: 'Roboto Slab', serif !important;
+	font: 900 25px 'Roboto Slab', serif !important;
+}
+
 /* Pages */
 
 .alink {
@@ -2197,4 +2206,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-05 21:24:34 */
+/* 2021-06-05 21:40:06 */
