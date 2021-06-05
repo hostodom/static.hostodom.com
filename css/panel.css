@@ -302,12 +302,14 @@ body table#control-panel-menu {
 
 .mmenu > tbody > tr > td,
 #control-panel-menu > tbody > tr > td,
-#control-panel-menu > tbody > tr > td {
+#control-panel-menu > tbody > tr > td > div,
+#control-panel-menu > tbody > tr > td > div > table > tbody > tr > td {
 	background: #405f77 !important;
 }
 
 .mmenu > tbody > tr > td:hover,
-#control-panel-menu > tbody > tr > td:hover {
+#control-panel-menu > tbody > tr > td:hover,
+#control-panel-menu > tbody > tr > td > div > table > tbody > tr > td:hover {
 	background: #365165 !important;
 }
 
@@ -342,7 +344,8 @@ body table#control-panel-menu {
 	min-width: 320px !important;
 }
 
-#customercp-container table tbody tr td .widget-content form select {
+#customercp-container table tbody tr td .widget-content form select, 
+#customercp-container table tbody tr td .widget-content form select option {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -986,4 +989,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 17:12:37 */
+/* 2021-06-05 17:37:24 */
