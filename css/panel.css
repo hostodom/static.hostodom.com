@@ -938,6 +938,11 @@ a.link:hover {
 	font-weight: 400 !important;
 }
 
+.mychild-topics li {
+	font-size: 15px !important;
+	font-weight: 400 !important;
+}
+
 .title.page-title span,
 .page-title,
 .kb-article-title {
@@ -1021,4 +1026,4 @@ a.link:hover {
 	}
 }
 
-/* 2021-06-05 21:34:06 */
+/* 2021-06-06 21:54:28 */
