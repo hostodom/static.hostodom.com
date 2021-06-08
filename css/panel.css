@@ -901,6 +901,13 @@ textarea#bulkActionText {
 
 /* Knowledgebase */
 
+h1,
+h1.page-title,
+h2,
+h3 {
+	font-family: 'Roboto Slab', serif !important;
+}
+
 a,
 a.link {
 	color: #4d84d7 !important;
@@ -1004,9 +1011,30 @@ a.seedetailslink {
 	font-size: 14px !important;
 }
 
+.node__content span,
+.node__content p,
+.node__content span,
+.node__content ul li,
+.node__content ol li,
+.node__content ul li a,
+.node__content ol li a {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
 .node__content .note {
 	background-color: #fef7e0 !important;
 	border: 1px solid #fff2c6 !important;
+}
+
+#toc ul li.dottedbg span.stepname {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 13px !important;
+	font-weight: 700 !important;
+}
+
+#toc ul li.dottedbg a {
+	font-size: 15px !important;
+	font-weight: 400 !important;
 }
 
 /* Footer */
@@ -1064,4 +1092,4 @@ a.seedetailslink {
 	}
 }
 
-/* 2021-06-08 20:48:54 */
+/* 2021-06-08 21:38:29 */
