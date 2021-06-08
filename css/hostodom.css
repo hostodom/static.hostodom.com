@@ -376,6 +376,10 @@ h2,
 	color: #4d84d7 !important;
 }
 
+.nav ul.navigation li ul.submenu-parent > li li p {
+	line-height: 1.2 !important;
+}
+
 .new-header-style .nav ul.navigation li.levelone > a,
 .new-header-style .nav ul.navigation li.first a {
 	font-size: 18px !important;
@@ -1260,12 +1264,14 @@ li.p-feat {
 .sh-hosting-meta-content p {
 	margin-bottom: 1.5rem !important;
 	font-family: 'Roboto Slab', serif !important;
+	font-size: 20px !important;
 	font-weight: 700 !important;
 }
 
 .sh-hosting-meta-content .sub-text {
-	margin: 10px 0 30px 0 !important;
+	margin: 10px 0 40px 0 !important;
 	font-family: 'Cuprum', sans-serif !important;
+	font-size: 18px !important;
 }
 
 .sh-hosting-wrapper .server_loc_tabs li {
@@ -2563,4 +2569,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-08 20:37:25 */
+/* 2021-06-08 20:52:40 */
