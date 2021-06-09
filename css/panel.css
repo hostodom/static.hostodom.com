@@ -31,6 +31,14 @@ select option,
 	font-family: 'Cuprum', sans-serif !important;
 }
 
+div {
+	font-size: 15px !important;
+}
+
+#page-container h3 {
+	font-size: 16px !important;
+}
+
 .addfundstitle h1 {
 	font-family: 'Roboto Slab', serif !important;
 }
@@ -658,7 +666,7 @@ div,
 
 .headerfont {
 	color: #405f77 !important;
-	font-size: 15px !important;
+	font-size: 16px !important;
 	font-weight: 700 !important;
 	text-transform: uppercase !important;
 	text-shadow: 1px 1px rgba(255, 255, 255, 0.5) !important;
@@ -692,6 +700,15 @@ hr {
 	color: #8ea6b9 !important;
 	font-size: 14px !important;
 	padding: 15px 0 !important;
+}
+
+#page-container p {
+	font-size: 15px !important;
+	font-family: 'Cuprum', san-serif !important;
+}
+
+#page-sidebar .input-select {
+	font-size: 15px !important;
 }
 
 /* Page / Profile  */
@@ -854,21 +871,43 @@ input, textarea, select,
     border: 1px solid #79a2e1 !important;
 }
 
+input,
+.input,
+select {
+	font-size: 15px !important;
+}
+
 input {
-	font-size: 14px !important;
+	line-height: 24px !important;
+	padding-left: 5px !important;
+	padding-right: 5px !important;
 }
 
 a:hover {
-    color: #6dcf54;
+	color: #6dcf54;
 }
 
 select {
-    height: 32px !important;
-    padding: 0 10px !important;
+	height: 32px !important;
+	padding: 0 10px !important;
 }
 
 .quirk-mode #navigation-shadow + table {
 	margin-bottom: 15px !important;
+}
+
+/* Tables */
+
+.headertd {
+	background: #e5effe !important;
+	line-height: 32px !important;
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+/* Icons */
+
+.renew-icon {
+	border: none !important;
 }
 
 /* Bulk Modify Name Servers */
@@ -1092,4 +1131,4 @@ a.seedetailslink {
 	}
 }
 
-/* 2021-06-08 21:38:29 */
+/* 2021-06-09 21:17:57 */
