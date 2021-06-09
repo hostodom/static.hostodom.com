@@ -1541,16 +1541,19 @@ li.p-feat {
 	font: 900 18px/21px 'Roboto Slab', serif !important;
 }
 
+.vps-kvm-banner-wrapper .orange-text.currency-symbol {
+	margin: 0 2px !important;
+}
+
 .vps-kvm-banner-wrapper .orange-text.starting-price {
 	font: 900 36px/21px 'Roboto Slab', serif !important;
 }
 
 .vps-kvm-banner-wrapper a.kvm-link-2-plans {
 	height: 42px !important;
-	line-height: 40px !important;
 	background: #6dcf54 !important;
 	border: 1px solid #6dcf54 !important;
-	font: 400 16px 'Cuprum', sans-serif !important;
+	font: 400 18px/40 'Cuprum', sans-serif !important;
 	border-radius: 5px !important;
 }
 
@@ -1567,12 +1570,50 @@ li.p-feat {
 	font: 900 18px/20px 'Roboto Slab', serif !important;
 }
 
+.about-kvmvps-tabs li a:hover {
+	color: #6dcf54 !important;
+}
+
+.about-kvmvps-tabs li.choosentab {
+	border-bottom: 2px solid #6dcf54 !important;
+}
+
+.about-kvmvps-content ul li {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.about-kvmvps-content #storage ul li span.strong {
+	font: 700 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.about-kvmvps-tabs li span.mnew-tag {
+	font: 400 12px 'Cuprum', sans-serif !important;
+	background: #e06160 !important;
+}
+
+.about-kvmvps-content p.tabcon-header-note {
+	font: 400 21px/21px 'Cuprum', sans-serif !important;
+	color: #6dcf54 !important;
+}
+
 .about-kvmvps-content h3 {
 	font: 900 20px/26px 'Roboto Slab', serif !important;
 }
 
 .about-kvmvps-content .icons {
 	font: 700 16px/21px 'Roboto Slab', serif !important;
+}
+
+.ssd-hdd-diff-tooltip h5 {
+	font: 900 22px/26px 'Roboto Slab', serif !important;
+}
+
+.ssd-hdd-diff-tooltip h5 span {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
+}
+
+.ssd-hdd-diff-tooltip .floatingdiv {
+	font: 700 18px/26px 'Roboto Slab', serif !important;
 }
 
 .linux-kvm-page .progress-bar .fix-font {
@@ -1598,9 +1639,11 @@ li.p-feat {
 .linux-kvm-page .dplan-list .plans2 li.pricing span.small-font {
 	font: 400 12px/21px 'Cuprum', sans-serif !important;
 }
+
 .linux-kvm-page .dplan-list .plans2 li {
-	font: 700 15px/18px 'Cuprum', sans-serif !important;
+	font: 700 16px/18px 'Cuprum', sans-serif !important;
 }
+
 .mbg-note {
 	margin: 25px auto 0 auto !important;
 	font: 400 italic 16px/30px 'Cuprum', sans-serif !important;
@@ -1648,6 +1691,12 @@ li.p-feat {
 #dedicated-new-tabs.dedi2 .country_specific_tabs li,
 #dedicated-new-tabs.dedi2 .country_specific_tabs li.sel {
 	font: 700 16px 'Roboto Slab', serif !important;
+}
+
+.linux-kvm-page .dplan-list .dropdown select,
+.linux-kvm-page .dplan-list #san_storage,
+.linux-kvm-page #selected-tld {
+	font-size: 15px !important;
 }
 
 .dedi2-plan-filter .mainlabel {
@@ -1719,7 +1768,7 @@ li.p-feat {
 }
 
 .dplan-list .plans li {
-	font: 400 18px 'Cuprum', sans-serif !important;
+	font: 400 16px 'Cuprum', sans-serif !important;
 }
 
 .dplan-list .plans .duration {
@@ -2076,7 +2125,6 @@ ee-lite-wrapper li,
 #page-container .sl-page-wrapper h2,
 #page-container .sl-page-wrapper h3,
 #page-container .sl-page-wrapper h4,
-#page-container .sl-page-wrapper span,
 #page-container .sl-page-wrapper em,
 #page-container .sl-head-meta .lfloat span,
 #page-container .sl-page-wrapper .inline-block,
@@ -2091,7 +2139,9 @@ ee-lite-wrapper li,
 #page-container .sl-page-wrapper ul li,
 #page-container .sl-page-wrapper td,
 #page-container .sl-plans-pricing tbody td,
-#page-container .sl-testimonials ul li p span.testimonial-txt {
+#page-container .sl-page-wrapper span,
+#page-container .sl-testimonials ul li p span.testimonial-txt,
+#page-container .sl-plans-pricing .sl-plan-usedfor {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -2116,6 +2166,17 @@ ee-lite-wrapper li,
 .sl-head-meta .sl-learn-more:hover {
 	color: #cb2330 !important;
 	border: 1px solid #cb2330 !important;
+}
+
+.sl-head-meta .sl-start-currency.symbol {
+	vertical-align: top !important;
+	margin: 0 2px !important;
+	font-size: 20px !important;
+}
+
+.sl-head-meta .sl-start-time {
+	margin-left: 2px !important;
+	font-size: 20px !important;
 }
 
 /* Page / Security / Codeguard Website Backup */
@@ -2449,7 +2510,7 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 .frmButton {
 	padding: 0 20px !important;
 	height: 42px !important;
-	font: bold 18px/40px 'Cuprum', sans-serif !important;
+	font: 400 18px/40px 'Cuprum', sans-serif !important;
 	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.1) !important;
 	background-color: #4d84d7 !important;
 	background-image: linear-gradient(to right,  #4d84d7 0%,#4d84d7 100%) !important;
@@ -2673,4 +2734,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-09 15:25:59 */
+/* 2021-06-09 20:21:20 */
