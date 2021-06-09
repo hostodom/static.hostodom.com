@@ -906,6 +906,71 @@ table.dataTable td {
 	font: 900 18px 'Roboto Slab', serif !important;
 }
 
+.predomain-result .premium_domain .item-dname {
+	font: 900 16px 'Roboto Slab', serif !important;
+	letter-spacing: 0.1rem !important;
+}
+
+.predomain-result .yearprice-wrap .price {
+	font: normal 16px 'Cuprum', sans-serif !important;
+}
+
+.ui-button-grn,
+.ui-button-grn-copy {
+	font: 700 16px/16px 'Cuprum', sans-serif !important;
+	text-shadow: 1px 1px 0px rgba(0, 0, 0, 0.25) !important;
+	background-color: #6dcf54;
+	background-image: none !important;
+	border-radius: 4px !important;
+	box-shadow: none !important;
+}
+
+.ui-button-grn:hover,
+.ui-button-grn-copy:hover {
+	background-color: #61b64b !important;
+}
+
+.pre-dmn-page .cart-button .ui-button {
+	width: 90% !important;
+	margin-top: 1.5rem !important;
+	margin-bottom: 10px !important;
+	color: #fff !important;
+}
+
+.blurb-cart .heading {
+	font: normal 18px 'Cuprum', sans-serif !important;
+}
+
+.blurb-cart ul li {
+	font: 15px 'Cuprum', sans-serif !important;
+}
+
+.pp-wrp {
+	font: 15px 'Cuprum', sans-serif !important;
+}
+
+.ui-button-dis {
+	font-family: 'Roboto Slab', serif !important;
+	font-weight: 900 !important;
+}
+
+.pre-dmn-page .cart-button .ui-button:hover {
+	color: #fff !important;
+}
+
+span#total_curr {
+	color: #6dcf54 !important;
+	font: 900 34px 'Roboto Slab', serif !important;
+}
+
+.model-twocols .heading {
+	font: 900 28px 'Roboto Slab', serif !important;
+}
+
+.close_pp_modal {
+	text-indent: -9999px;
+}
+
 /* User Registration */
 
 .note2 {
@@ -927,12 +992,6 @@ table.dataTable td {
 #signup .terms-n-conditions a,
 #signup label[for="tnc_agree"] {
 	font-size: 14px !important;
-}
-
-/* Page / Hosting */
-
-.sh-hosting-banner {
-	background-size: 100% !important;
 }
 
 /* Page / Login */
@@ -1205,6 +1264,10 @@ li.p-dropdown select {
 }
 
 /* Page / Hosting */
+
+.sh-hosting-banner {
+	background-size: 100% !important;
+}
 
 .switch-nav .tab-wrp div a {
 	font: 900 22px/22px 'Roboto Slab', serif !important;
@@ -1483,8 +1546,10 @@ li.p-feat {
 }
 
 .vps-kvm-banner-wrapper a.kvm-link-2-plans {
-	background: #6dcf54;
-	border: 1px solid #6dcf54;
+	height: 42px !important;
+	line-height: 40px !important;
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
 	font: 400 16px 'Cuprum', sans-serif !important;
 	border-radius: 5px !important;
 }
@@ -1492,6 +1557,10 @@ li.p-feat {
 .vps-kvm-banner-wrapper a.kvm-link-2-plans:hover {
 	background: #61b64b !important;
 	border-color: #61b64b !important;
+}
+
+.about-kvmvps-content #storage ul li {
+	font: 400 16px/21px 'Cuprum', sans-serif !important;
 }
 
 .about-kvmvps-tabs li a {
@@ -1547,6 +1616,10 @@ li.p-feat {
 }
 
 /* Page / Hosting / Dedicated Servers */
+
+.linux-kvm-page .kvm-plan-content {
+	padding-bottom: 1rem;
+}
 
 .dedi2-bannner ul li {
 	font: 700 220px/40px 'Cuprum', sans-serif !important;
@@ -1646,7 +1719,7 @@ li.p-feat {
 }
 
 .dplan-list .plans li {
-	font: 900 18px 'Roboto Slab', serif !important;
+	font: 400 18px 'Cuprum', sans-serif !important;
 }
 
 .dplan-list .plans .duration {
@@ -1741,6 +1814,10 @@ span.cloud-plan-price,
 	font-weight: 400 !important;
 }
 
+#unmetered_modal_div p span {
+	font: 900 18px/25px 'Roboto Slab', serif !important;
+}
+
 /* Page / Email & Productivity */
 
 #ee-lite-wrapper h1,
@@ -1751,6 +1828,11 @@ span.cloud-plan-price,
 .chhero .chcontent2,
 .chhero .chcontent3 {
 	font-family: 'Roboto Slab', serif !important;
+}
+
+.chhero .chcontent3 {
+	text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.15) !important;
+	letter-spacing: 0.05rem !important;
 }
 
 /* Page / Email & Productivity / Business Email */
@@ -2027,11 +2109,11 @@ ee-lite-wrapper li,
 	border-color: #61b64b !important;
 }
 
-.sl-learn-more {
+.sl-head-meta .sl-learn-more {
 	border-radius: 5px !important;
 }
 
-.sl-learn-more:hover {
+.sl-head-meta .sl-learn-more:hover {
 	color: #cb2330 !important;
 	border: 1px solid #cb2330 !important;
 }
@@ -2203,9 +2285,30 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	font-size: 15px !important;
 }
 
+.bundles-plans .bundles-price .bundle-currency,
+.bundles-plans .bundles-price .bundle-price-value,
+.bundles-plans .bundles-price .bundle-validity {
+	font-family: 'Roboto Slab', serif !important;
+}
+
 .bundles-page-note {
 	font-size: 15px !important;
 	font-weight: 400 !important;
+}
+
+.bundles-plans .bundles-price .price-note {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.bundles-plans .bundles-price .bundle-validity {
+	margin: 0 8px 8px 0 !important;
+}
+
+/* Page / Hosting Security */
+
+.section h4 {
+	font: 900 18px/30px 'Roboto Slab', serif !important;
+	color: #405f77 !important;
 }
 
 /* Page / Contact us */
@@ -2353,6 +2456,7 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	border: 1px solid #4d84d7 !important;
 	border-radius: 5px !important;
 	box-shadow: none !important;
+	color: #fff !important;
 }
 
 #register_submit_id.disabled-uiButton,
@@ -2569,4 +2673,4 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	}
 }
 
-/* 2021-06-08 20:52:40 */
+/* 2021-06-09 15:25:59 */
