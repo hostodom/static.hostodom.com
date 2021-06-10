@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme ***/
+/*** Hostodom.com Theme @ 2021-06-10 15:28:29 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -665,11 +665,40 @@ h2,
 
 /* Page / Cart */
 
+#couponCodeContainer strong.txtblue {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+}
+
+#applyCoupon.disabled, #removeCoupon.gray-button {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+ul#payment_options_online li.selected {
+	background: #cde1ff !important;
+}
+
+ul#payment_options_online li.paymentOption label,
+#paymentOption_online label,
+#paymentOption_offline label {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
+}
+
+.ItemConvertedSubtotal #CartTotal #total {
+	font: 900 18px 'Roboto Slab', serif !important;
+}
+
 .Cart-Total,
 .ItemTotalAfterDiscount.Cart-Total td,
 .ItemTotalAfterDiscount #TotalAmount {
-	font-family: 'Roboto Slab', serif !important;
 	font: 900 25px 'Roboto Slab', serif !important;
+}
+
+.paymentOption h3.ui-subheading {
+	font-size: 22px !important;
 }
 
 /* Pages */
@@ -1553,8 +1582,9 @@ li.p-feat {
 	height: 42px !important;
 	background: #6dcf54 !important;
 	border: 1px solid #6dcf54 !important;
-	font: 400 18px/40 'Cuprum', sans-serif !important;
 	border-radius: 5px !important;
+	font: 400 18px/40 'Cuprum', sans-serif !important;
+	color: #fff !important;
 }
 
 .vps-kvm-banner-wrapper a.kvm-link-2-plans:hover {
@@ -2720,8 +2750,34 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 /** Responsive **/
 
 @media only screen and (max-width: 768px), (min-width: 769px) and (max-width: 1000px) {
+	
 	.home-bg #page-header {
 		margin-top: 0 !important;
+	}
+	.mobile-menu li.levelone, .mobile-menu li.first {
+		font-family: 'Cuprum', sans-serif !important;
+		font-size: 16px !important;
+		font-weight: 400 !important;
+	}
+	.mobile-menu li.link-to-desktop {
+		color: #4d84d7 !important;
+		font-family: 'Cuprum', sans-serif !important;
+		font-size: 16px !important;
+		font-weight: 700 !important;
+	}
+	.mobile-menu li.login-signup {
+		color: #4d84d7 !important;
+		font-family: 'Cuprum', sans-serif !important;
+		font-size: 16px !important;
+		font-weight: 400 !important;
+		border: 1px solid #4d84d7 !important;
+	}
+	.tabs-txt span {
+		font: 700 15px/22px 'Cuprum', sans-serif !important;
+		color: #405f77 !important;
+	}
+	.tabs-txt span.clicked {
+		border-bottom: 2px solid #6dcf54 !important;
 	}
 	#page-header h1 {
 		padding: 10px 0 !important;
@@ -2732,6 +2788,14 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 	.noscartitems {
 		background: #6dcf54 !important;
 	}
+	.sslc-banner .content-wrp,
+	.sslc-banner h2 {
+		text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.25) !important;
+	}
+	.blue-view-plans {
+		background: #4d84d7 !important;
+		border: 1px solid #4d84d7 !important;
+		font: 500 16px 'Cuprum', sans-serif !important;
+		border-radius: 5px !important;
+	}
 }
-
-/* 2021-06-09 20:21:20 */
