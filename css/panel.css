@@ -1,4 +1,4 @@
-/*** HOSTODOM CONTROL PANEL ***/
+/*** HOSTODOM CONTROL PANEL @ 2021-06-10 17:13:23 ***/
 
 @import url('https://fonts.googleapis.com/css2?family=Cuprum:ital,wght@0,400;1,700&family=Roboto+Slab:wght@900&display=swap');
 
@@ -451,7 +451,7 @@ div,
 	right: 0 !important;
 	bottom: 0 !important;
 	width: auto !important;
-	max-width: 125px !important;
+	max-width: 160px !important;
 	border-bottom: none !important;
 }
 
@@ -1130,5 +1130,3 @@ a.seedetailslink {
 		padding: 5px 0 !important;
 	}
 }
-
-/* 2021-06-09 21:17:57 */
