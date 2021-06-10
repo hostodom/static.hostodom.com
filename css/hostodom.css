@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-10 15:28:29 ***/
+/*** Hostodom.com Theme @ 2021-06-10 16:18:50 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -1584,6 +1584,10 @@ li.p-feat {
 	border: 1px solid #6dcf54 !important;
 	border-radius: 5px !important;
 	font: 400 18px/40 'Cuprum', sans-serif !important;
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 18px !important;
+	font-weight: 400 !important;
+	line-height: 40px !important;
 	color: #fff !important;
 }
 
@@ -1986,6 +1990,45 @@ ee-lite-wrapper li,
 .enterprise-email-new-wrapper .subtotal .frmButton-disable#purchase_button {
 	height: 40px !important;
 	line-height: 40px !important;
+}
+
+/* Page / Email & Productivity /  Google Workspace */
+
+.gapps-banner .gapps-lowest-price .startsat,
+.gapps-banner .gapps-lowest-price sup.currency,
+.gapps-banner .gapps-lowest-price span.validity,
+.gapps-banner .gapps-lowest-price span.value {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.gapps-banner a.gsuite-view-plans {
+	background: #4d84d7 !important;
+	border: 1px solid #4d84d7 !important;
+	font: 400 16px/42px 'Cuprum', sans-serif !important;
+}
+
+.gapps-banner a.gsuite-view-plans:hover {
+	background: #4271b8 !important;
+	border-color: #4271b8 !important;
+}
+
+.gsuite-features-wrapper ul li {
+	font: 700 20px/20px 'Cuprum', sans-serif !important;
+}
+
+.gsuite-features-wrapper h3 {
+	font: 900 20px/26px 'Roboto Slab', serif !important;
+}
+
+div.not-sell-notice a {
+	color: #377ce4 !important;
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.gapps-faqs ul li h4 {
+	font-family: 'Cuprum', sans-serif !important;
+	font-size: 16px !important;
+	font-weight: 700 !important;
 }
 
 /* Page / Enterprise Email */
