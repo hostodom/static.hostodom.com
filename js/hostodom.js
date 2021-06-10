@@ -1,4 +1,4 @@
-//*** HOSTODOM FUNCTIONS @ 2021-06-10 15:15:11
+//*** HOSTODOM FUNCTIONS @ 2021-06-10 15:17:19
 
 // jQuery Functions
 $(document).ready(function() {
@@ -15,7 +15,7 @@ $(document).ready(function() {
 		e.preventDefault();
 		window.location = 'https://resellers.hostodom.com';
 	});
-	$('#page-footer .new-footer-style .footer-cols .col.four ul.secondary-links').prepend('<li class="footer-view-ns"><a href="https://hostodom.freshdesk.com/support/solutions/articles/79000124991-name-servers-ns-for-your-domain" target="_blank">View Name Servers (NS)</a></li>');
+	$('#page-footer .new-footer-style .footer-cols .col.four ul.secondary-links').prepend('<li class="footer-view-ns"><a href="https://hostodom.freshdesk.com/support/solutions/articles/79000124991-name-servers-ns-for-your-domain" target="_blank">Name Servers (NS)</a></li>');
 });
 
 // External links
