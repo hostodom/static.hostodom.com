@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 09:09:54 ***/
+/*** Hostodom.com Theme @ 2021-06-11 09:21:07 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -2048,6 +2048,9 @@ ee-lite-wrapper li,
 	font-family: 'Roboto Slab', serif !important;
 }
 
+.gsuite-plan-content ul.gsuite-colaboration-tools li.sheets-parent span.txt,
+.gsuite-plan-content ul.gsuite-colaboration-tools li.slides-parent span.txt,
+.gsuite-plan-content ul.gsuite-colaboration-tools li.docs-parent span.txt,
 .progressbar .gsuite-step1.currentstep,
 .progressbar .gsuite-step2.currentstep,
 .progressbar .gsuite-step2 {
