@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 08:49:33 ***/
+/*** Hostodom.com Theme @ 2021-06-11 09:05:15 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -2024,6 +2024,11 @@ ee-lite-wrapper li,
 
 /* Page / Email & Productivity /  Google Workspace */
 
+#gapps-wrapper .gapps-banner h1 {
+	margin: 30px auto 0 auto !important;
+	font-size: 28px !important;
+}
+
 #gapps-whatsnew-buy {
 	background: #6dcf54 !important;
 	border: 1px solid #6dcf54 !important;
@@ -2043,12 +2048,46 @@ ee-lite-wrapper li,
 	font-family: 'Roboto Slab', serif !important;
 }
 
+.progressbar .gsuite-step1.currentstep,
+.progressbar .gsuite-step2.currentstep {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+.gsuite-plan-content .user-type {
+	font: 900 20px/21px 'Roboto Slab', serif !important;
+}
+
+.gsuite-plan-content .plan-subtxt {
+	font: 400 15px/21px 'Cuprum', sans-serif !important;
+}
+
+.gsuite-plan-content .plan-price span {
+	font-family: 'Roboto Slab', serif !important;
+}
+
+.gsuite-plan-content .plan-details-txt {
+	font: 700 16px/35px 'Cuprum', sans-serif !important;
+}
+
+.gsuite-plan-content .gsuite-control ul li span.txt {
+	font-family: 'Cuprum', sans-serif !important;
+}
+
+button.select-plan {
+	background: #4d84d7 !important;
+	border: 1px solid #4d84d7 !important;
+	border-radius: 5px !important;
+	font: 400 16px/20px 'Cuprum', sans-serif !important;
+	color: #ffffff;
+}
+
 .gapps-banner a.gsuite-view-plans {
 	background: #4d84d7 !important;
 	border: 1px solid #4d84d7 !important;
 	font: 400 16px/42px 'Cuprum', sans-serif !important;
 }
 
+button.select-plan:hover,
 .gapps-banner a.gsuite-view-plans:hover {
 	background: #4271b8 !important;
 	border-color: #4271b8 !important;
@@ -2071,6 +2110,14 @@ div.not-sell-notice a {
 	font-family: 'Cuprum', sans-serif !important;
 	font-size: 16px !important;
 	font-weight: 700 !important;
+}
+
+.gapps-transfer-token-note {
+	margin-top: 1rem !important;
+}
+
+#gapps-wrapper a {
+	font-family: 'Cuprum', sans-serif !important;
 }
 
 /* Page / Enterprise Email */
