@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 16:30:37 ***/
+/*** Hostodom.com Theme @ 2021-06-11 18:31:20 ***/
 
 body {
 	font: normal 15px 'Cuprum', sans-serif;
@@ -1729,7 +1729,7 @@ li.p-feat {
 }
 
 .dedi2-bannner ul li {
-	font: 700 220px/40px 'Cuprum', sans-serif !important;
+	font: 700 22px/40px 'Cuprum', sans-serif !important;
 }
 
 .dedi-price {
@@ -2270,6 +2270,7 @@ div.not-sell-notice a {
 }
 
 .feq-wrp .ssl-tabs li {
+	display: block !important;
 	width: 320px !important;
 	margin: 0 auto !important;
 	pointer-events: none !important;
