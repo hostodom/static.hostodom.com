@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 08:36:28 ***/
+/*** Hostodom.com Theme @ 2021-06-11 08:39:58 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -1995,8 +1995,8 @@ ee-lite-wrapper li,
 /* Page / Email & Productivity /  Google Workspace */
 
 #gapps-whatsnew-buy {
-	background: #6dcf54;
-	border: 1px solid #6dcf54;
+	background: #6dcf54 !important;
+	border: 1px solid #6dcf54 !important;
 	border-radius: 5px !important;
 	font: 400 15px/30px 'Cuprum', sans-serif !important;
 }
