@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 16:26:26 ***/
+/*** Hostodom.com Theme @ 2021-06-11 16:30:37 ***/
 
 body {
 	font: normal 15px 'Cuprum', sans-serif;
@@ -2055,8 +2055,7 @@ ee-lite-wrapper li,
 .gsuite-plan-content ul.gsuite-colaboration-tools li.forms-parent span.txt,
 .progressbar .gsuite-step1.currentstep,
 .progressbar .gsuite-step2.currentstep,
-.progressbar .gsuite-step2,
-#gapps-wrapper span {
+.progressbar .gsuite-step2 {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -2081,7 +2080,7 @@ ee-lite-wrapper li,
 	font-family: 'Cuprum', sans-serif !important;
 }
 
-.gsuite-plan-content .discount-footnote {
+#gapps-wrapper .discount-footnote {
 	margin: 30px 0 -10px 0 !important;
 }
 
@@ -2107,6 +2106,7 @@ button.select-plan {
 }
 
 .gsuite-plan-content .discount-percent .off-txt {
+	display: block !important;
 	font: 900 18px/35px 'Roboto Slab', serif !important;
 	font-style: italic !important;
 }
