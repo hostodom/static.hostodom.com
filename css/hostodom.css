@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-10 16:18:50 ***/
+/*** Hostodom.com Theme @ 2021-06-11 08:36:28 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -824,7 +824,7 @@ table.dataTable td {
 
 #newgtld-learn-more-button a:hover {
 	border-color: #fff !important;
-	background: #61b64b !important;
+	background: #57a343 !important;
 	color: #fff !important;
 }
 
@@ -890,8 +890,8 @@ table.dataTable td {
 }
 
 .new-gtld-rounded-button:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .domain-search-box span.example-new-tld {
@@ -956,7 +956,7 @@ table.dataTable td {
 
 .ui-button-grn:hover,
 .ui-button-grn-copy:hover {
-	background-color: #61b64b !important;
+	background-color: #57a343 !important;
 }
 
 .pre-dmn-page .cart-button .ui-button {
@@ -1214,8 +1214,8 @@ li.p-feat {
 }
 
 .weebly-gallery-content button:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .weebly-feature h3 {
@@ -1261,8 +1261,8 @@ li.p-feat {
 }
 
 .weebly-plans-pricing td input[type="button"]:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .weebly-testimonial-content p {
@@ -1510,8 +1510,8 @@ li.p-feat {
 
 .wp-host-plans-content ul li .green-button:hover,
 .wp-host-banner-meta-wrp .wp-host-banner-meta-content .rfloat a.wp-link-2-plans:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .ss-badge {
@@ -1592,8 +1592,8 @@ li.p-feat {
 }
 
 .vps-kvm-banner-wrapper a.kvm-link-2-plans:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .about-kvmvps-content #storage ul li {
@@ -1714,8 +1714,8 @@ li.p-feat {
 }
 
 .dedi2-bannner .viewplans:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .dedi2-wrapper .progress-bar .fix-font {
@@ -1874,7 +1874,7 @@ span.cloud-plan-price,
 .cloud-plan .green-button-style,
 .green-button-style {
 	background: #6dcf54 !important;
-	border: 1px solid #61b64b !important;
+	border: 1px solid #57a343 !important;
 	box-shadow: none !important;
 	font-family: 'Cuprum' !important;
 	font-size: 18px !important;
@@ -1884,7 +1884,7 @@ span.cloud-plan-price,
 
 .cloud-plan .green-button-style:hover,
 .green-button-style:hover {
-	background: #61b64b !important;
+	background: #57a343 !important;
 }
 
 .chfaqrow .chfaqhead {
@@ -1994,6 +1994,18 @@ ee-lite-wrapper li,
 
 /* Page / Email & Productivity /  Google Workspace */
 
+#gapps-whatsnew-buy {
+	background: #6dcf54;
+	border: 1px solid #6dcf54;
+	border-radius: 5px !important;
+	font: 400 15px/30px 'Cuprum', sans-serif !important;
+}
+
+#gapps-whatsnew-buy:hover {
+	background: #57a343 !important;
+	border-color: #57a343;
+}
+
 .gapps-banner .gapps-lowest-price .startsat,
 .gapps-banner .gapps-lowest-price sup.currency,
 .gapps-banner .gapps-lowest-price span.validity,
@@ -2070,8 +2082,8 @@ div.not-sell-notice a {
 }
 
 .eemail-banner button.buy-acs:hover {
-	border-color: #6dcf54 !important;
-	background: #61b64b !important;
+	border-color: #57a343 !important;
+	background: #57a343 !important;
 }
 
 .eemail-banner a.try-demo {
@@ -2188,8 +2200,8 @@ div.not-sell-notice a {
 }
 
 #select-domain-modal .continue-button-container input#continue_action:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 /* Page / Security / SiteLock */
@@ -2228,8 +2240,8 @@ div.not-sell-notice a {
 }
 
 .sl-plans-pricing tr.sl-buy-buttons td .green-button:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .sl-head-meta .sl-learn-more {
@@ -2305,8 +2317,8 @@ div.not-sell-notice a {
 }
 
 #cog-wrapper .cog-banner-links .rfloat a.cog-link-2-plans:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 #cog-wrapper .cog-link-2-video {
@@ -2361,8 +2373,8 @@ table#cog-plans-pricing-table tr td button.cog-buybutton,
 
 table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 .proceed-to-checkout:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 #cog-wrapper .cog-testimonials ul li p span.testimonial-txt {
@@ -2405,8 +2417,8 @@ table#cog-plans-pricing-table tr td button.cog-buybutton:hover,
 }
 
 .bundles-green-button:hover {
-	background: #61b64b !important;
-	border-color: #61b64b !important;
+	background: #57a343 !important;
+	border-color: #57a343 !important;
 }
 
 .bundles-blocks.col2 ul li,
