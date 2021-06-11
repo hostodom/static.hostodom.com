@@ -1,4 +1,4 @@
-/*** Hostodom.com Theme @ 2021-06-11 09:05:15 ***/
+/*** Hostodom.com Theme @ 2021-06-11 09:09:54 ***/
 
 body {
 	font: normal 14px 'Cuprum', sans-serif;
@@ -2049,7 +2049,8 @@ ee-lite-wrapper li,
 }
 
 .progressbar .gsuite-step1.currentstep,
-.progressbar .gsuite-step2.currentstep {
+.progressbar .gsuite-step2.currentstep,
+.progressbar .gsuite-step2 {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -2069,7 +2070,8 @@ ee-lite-wrapper li,
 	font: 700 16px/35px 'Cuprum', sans-serif !important;
 }
 
-.gsuite-plan-content .gsuite-control ul li span.txt {
+.gsuite-plan-content .gsuite-control ul li span.txt,
+.gsuite-plan-content ul.gsuite-colaboration-tools li.keep-parent span.txt {
 	font-family: 'Cuprum', sans-serif !important;
 }
 
@@ -2118,6 +2120,10 @@ div.not-sell-notice a {
 
 #gapps-wrapper a {
 	font-family: 'Cuprum', sans-serif !important;
+}
+
+#gapps-wrapper a:hover {
+	text-decoration: underline !important;
 }
 
 /* Page / Enterprise Email */
